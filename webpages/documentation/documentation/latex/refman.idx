@@ -1,0 +1,34 @@
+\indexentry{Arcana\+::\+Are\+Types\+Equal$<$ typename, typename $>$@{Arcana\+::\+Are\+Types\+Equal$<$ typename, typename $>$}|hyperpage}{5}
+\indexentry{Arcana\+::\+Are\+Types\+Equal$<$ A, A $>$@{Arcana\+::\+Are\+Types\+Equal$<$ A, A $>$}|hyperpage}{5}
+\indexentry{Arcana\+::\+Array$<$ Element\+Type $>$@{Arcana\+::\+Array$<$ Element\+Type $>$}|hyperpage}{5}
+\indexentry{Arcana\+::\+Array@{Arcana\+::\+Array}!remove\+At\+Swap@{remove\+At\+Swap}|hyperpage}{9}
+\indexentry{remove\+At\+Swap@{remove\+At\+Swap}!Arcana\+::\+Array@{Arcana\+::\+Array}|hyperpage}{9}
+\indexentry{Arcana\+::\+Auto\+Profile@{Arcana\+::\+Auto\+Profile}|hyperpage}{10}
+\indexentry{Arcana\+::\+Auto\+Profile@{Arcana\+::\+Auto\+Profile}!Auto\+Profile@{Auto\+Profile}|hyperpage}{10}
+\indexentry{Auto\+Profile@{Auto\+Profile}!Arcana\+::\+Auto\+Profile@{Arcana\+::\+Auto\+Profile}|hyperpage}{10}
+\indexentry{Arcana\+::\+Auto\+Profile@{Arcana\+::\+Auto\+Profile}!````~Auto\+Profile@{$\sim$\+Auto\+Profile}|hyperpage}{10}
+\indexentry{````~Auto\+Profile@{$\sim$\+Auto\+Profile}!Arcana\+::\+Auto\+Profile@{Arcana\+::\+Auto\+Profile}|hyperpage}{10}
+\indexentry{Arcana\+::\+Base\+Callback$<$ Return\+Value, Argument\+Types $>$@{Arcana\+::\+Base\+Callback$<$ Return\+Value, Argument\+Types $>$}|hyperpage}{11}
+\indexentry{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!Base\+Callback@{Base\+Callback}|hyperpage}{11}
+\indexentry{Base\+Callback@{Base\+Callback}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}|hyperpage}{11}
+\indexentry{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!Base\+Callback@{Base\+Callback}|hyperpage}{12}
+\indexentry{Base\+Callback@{Base\+Callback}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}|hyperpage}{12}
+\indexentry{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!bind@{bind}|hyperpage}{12}
+\indexentry{bind@{bind}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}|hyperpage}{12}
+\indexentry{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!bind@{bind}|hyperpage}{12}
+\indexentry{bind@{bind}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}|hyperpage}{12}
+\indexentry{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!execute@{execute}|hyperpage}{12}
+\indexentry{execute@{execute}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}|hyperpage}{12}
+\indexentry{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!execute\+If\+Bound@{execute\+If\+Bound}|hyperpage}{13}
+\indexentry{execute\+If\+Bound@{execute\+If\+Bound}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}|hyperpage}{13}
+\indexentry{Arcana\+::\+Event\+Handler\+::\+Broadcast\+Result@{Arcana\+::\+Event\+Handler\+::\+Broadcast\+Result}|hyperpage}{13}
+\indexentry{Arcana\+::\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$@{Arcana\+::\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$}|hyperpage}{14}
+\indexentry{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!bind@{bind}|hyperpage}{15}
+\indexentry{bind@{bind}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}|hyperpage}{15}
+\indexentry{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!bind@{bind}|hyperpage}{15}
+\indexentry{bind@{bind}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}|hyperpage}{15}
+\indexentry{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!execute@{execute}|hyperpage}{15}
+\indexentry{execute@{execute}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}|hyperpage}{15}
+\indexentry{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!execute\+If\+Bound@{execute\+If\+Bound}|hyperpage}{15}
+\indexentry{execute\+If\+Bound@{execute\+If\+Bound}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}|hyperpage}{15}
+\indexentry{Arcana\+::\+Controller\+Connect\+Event@{Arcana\+::\+Controller\+Connect\+Event}|hyperpage}{16}
