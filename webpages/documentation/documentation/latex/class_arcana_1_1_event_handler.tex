@@ -1,0 +1,81 @@
+\hypertarget{class_arcana_1_1_event_handler}{}\section{Arcana\+:\+:Event\+Handler Class Reference}
+\label{class_arcana_1_1_event_handler}\index{Arcana\+::\+Event\+Handler@{Arcana\+::\+Event\+Handler}}
+
+
+Main class for broadcasting events.  
+
+
+
+
+{\ttfamily \#include $<$Event\+Handler.\+h$>$}
+
+Inheritance diagram for Arcana\+:\+:Event\+Handler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_arcana_1_1_event_handler}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_arcana_1_1_event_handler_1_1_broadcast_result}{Broadcast\+Result}}
+\begin{DoxyCompactList}\small\item\em This class wraps a broadcast result code. It contains methods for easily checking success and getting code strings for debug printing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4}{Broadcast\+Result\+Code}} \+: uint8 \{ \mbox{\hyperlink{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4a8ea45dcfe2dfc827ecf65d103e18787c}{E\+V\+E\+N\+T\+\_\+\+S\+U\+C\+C\+E\+SS}}, 
+\mbox{\hyperlink{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4a27766aae597f40890345c45fc59dd7f0}{E\+V\+E\+N\+T\+\_\+\+E\+R\+R\+OR}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum containing codes for event broadcast success and failure. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_handler_a30e989dae18b9ac3c0bc01aedaea003e}\label{class_arcana_1_1_event_handler_a30e989dae18b9ac3c0bc01aedaea003e}} 
+typedef \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_arcana_1_1_event_listener}{Event\+Listener}} $>$ $>$ \mbox{\hyperlink{class_arcana_1_1_event_handler_a30e989dae18b9ac3c0bc01aedaea003e}{Listener\+Array}}
+\begin{DoxyCompactList}\small\item\em Typedef for an array of event listeners. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_handler_abad62db95c13588434b896f7ca556049}\label{class_arcana_1_1_event_handler_abad62db95c13588434b896f7ca556049}} 
+\mbox{\hyperlink{class_arcana_1_1_event_handler_abad62db95c13588434b896f7ca556049}{Event\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_event_handler}{Event\+Handler}} default constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_handler_aac9a6d2645d3a74b3b46a10381436c84}\label{class_arcana_1_1_event_handler_aac9a6d2645d3a74b3b46a10381436c84}} 
+\mbox{\hyperlink{class_arcana_1_1_event_handler_aac9a6d2645d3a74b3b46a10381436c84}{$\sim$\+Event\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_event_handler}{Event\+Handler}} destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_handler_a1786d06628a98005c406020772adb84a}\label{class_arcana_1_1_event_handler_a1786d06628a98005c406020772adb84a}} 
+\mbox{\hyperlink{class_arcana_1_1_event_handler_1_1_broadcast_result}{Broadcast\+Result}} \mbox{\hyperlink{class_arcana_1_1_event_handler_a1786d06628a98005c406020772adb84a}{broadcast}} (\mbox{\hyperlink{class_arcana_1_1_event}{Event}} \&event)
+\begin{DoxyCompactList}\small\item\em Broadcasts the event to the event listeners and executes the event callback. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_handler_ae8a53585c131b63aedf362b10c5fbf0f}\label{class_arcana_1_1_event_handler_ae8a53585c131b63aedf362b10c5fbf0f}} 
+void \mbox{\hyperlink{class_arcana_1_1_event_handler_ae8a53585c131b63aedf362b10c5fbf0f}{add\+Event\+Listener}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_arcana_1_1_event_listener}{Event\+Listener}} $>$ ptr)
+\begin{DoxyCompactList}\small\item\em Adds an event listener to the listener array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Main class for broadcasting events. 
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4}\label{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4}} 
+\index{Arcana\+::\+Event\+Handler@{Arcana\+::\+Event\+Handler}!Broadcast\+Result\+Code@{Broadcast\+Result\+Code}}
+\index{Broadcast\+Result\+Code@{Broadcast\+Result\+Code}!Arcana\+::\+Event\+Handler@{Arcana\+::\+Event\+Handler}}
+\subsubsection{\texorpdfstring{Broadcast\+Result\+Code}{BroadcastResultCode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4}{Arcana\+::\+Event\+Handler\+::\+Broadcast\+Result\+Code}} \+: uint8}
+
+
+
+Enum containing codes for event broadcast success and failure. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{E\+V\+E\+N\+T\+\_\+\+S\+U\+C\+C\+E\+SS@{E\+V\+E\+N\+T\+\_\+\+S\+U\+C\+C\+E\+SS}!Arcana\+::\+Event\+Handler@{Arcana\+::\+Event\+Handler}}\index{Arcana\+::\+Event\+Handler@{Arcana\+::\+Event\+Handler}!E\+V\+E\+N\+T\+\_\+\+S\+U\+C\+C\+E\+SS@{E\+V\+E\+N\+T\+\_\+\+S\+U\+C\+C\+E\+SS}}}\mbox{\Hypertarget{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4a8ea45dcfe2dfc827ecf65d103e18787c}\label{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4a8ea45dcfe2dfc827ecf65d103e18787c}} 
+E\+V\+E\+N\+T\+\_\+\+S\+U\+C\+C\+E\+SS&\mbox{\hyperlink{class_arcana_1_1_event}{Event}} was broadcasted successfully. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{E\+V\+E\+N\+T\+\_\+\+E\+R\+R\+OR@{E\+V\+E\+N\+T\+\_\+\+E\+R\+R\+OR}!Arcana\+::\+Event\+Handler@{Arcana\+::\+Event\+Handler}}\index{Arcana\+::\+Event\+Handler@{Arcana\+::\+Event\+Handler}!E\+V\+E\+N\+T\+\_\+\+E\+R\+R\+OR@{E\+V\+E\+N\+T\+\_\+\+E\+R\+R\+OR}}}\mbox{\Hypertarget{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4a27766aae597f40890345c45fc59dd7f0}\label{class_arcana_1_1_event_handler_a1763837e7c9732fff7df0d4e48b3dbd4a27766aae597f40890345c45fc59dd7f0}} 
+E\+V\+E\+N\+T\+\_\+\+E\+R\+R\+OR&\mbox{\hyperlink{class_arcana_1_1_event}{Event}} was broadcasted unsuccessfully. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Event\+Handler.\+h\item 
+Event\+Handler.\+cpp\end{DoxyCompactItemize}

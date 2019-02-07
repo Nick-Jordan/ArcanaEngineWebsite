@@ -1,0 +1,124 @@
+\hypertarget{class_arcana_1_1_base_callback}{}\section{Arcana\+:\+:Base\+Callback$<$ Return\+Value, Argument\+Types $>$ Class Template Reference}
+\label{class_arcana_1_1_base_callback}\index{Arcana\+::\+Base\+Callback$<$ Return\+Value, Argument\+Types $>$@{Arcana\+::\+Base\+Callback$<$ Return\+Value, Argument\+Types $>$}}
+
+
+A templated callback class.  
+
+
+
+
+{\ttfamily \#include $<$Base\+Callback.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_arcana_1_1_base_callback_a79731f710c224094f56afe210315ec05}{Base\+Callback}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_arcana_1_1_base_callback_a0a3da87cf8bd61e627dd76a7b23ab897}{Base\+Callback}} (const \mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}}$<$ Return\+Value, Argument\+Types... $>$ \&copy)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}} copy constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_base_callback_a7a85b48293ed2d2f8793e358f79d8d6c}\label{class_arcana_1_1_base_callback_a7a85b48293ed2d2f8793e358f79d8d6c}} 
+\mbox{\hyperlink{class_arcana_1_1_base_callback_a7a85b48293ed2d2f8793e358f79d8d6c}{$\sim$\+Base\+Callback}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}} destructor. \end{DoxyCompactList}\item 
+Return\+Value \mbox{\hyperlink{class_arcana_1_1_base_callback_ab9cba864f0037c3125ff1b5ea7a33a08}{execute}} (Argument\+Types... args)
+\begin{DoxyCompactList}\small\item\em Executes the function if one is bound. \end{DoxyCompactList}\item 
+Return\+Value \mbox{\hyperlink{class_arcana_1_1_base_callback_a7ab7b46a89bf248c4ee798e34f1b626d}{execute\+If\+Bound}} (Argument\+Types... args)
+\begin{DoxyCompactList}\small\item\em Executes the function if one is bound. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_base_callback_a15c42c877e4973d18674ce03ba2e0009}\label{class_arcana_1_1_base_callback_a15c42c877e4973d18674ce03ba2e0009}} 
+bool \mbox{\hyperlink{class_arcana_1_1_base_callback_a15c42c877e4973d18674ce03ba2e0009}{is\+Bound}} () const
+\begin{DoxyCompactList}\small\item\em Returns true if a function pointer is bound. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_base_callback_a34a6a102d72802409883d5ec11e86f66}\label{class_arcana_1_1_base_callback_a34a6a102d72802409883d5ec11e86f66}} 
+bool \mbox{\hyperlink{class_arcana_1_1_base_callback_a34a6a102d72802409883d5ec11e86f66}{is\+Static\+Function}} () const
+\begin{DoxyCompactList}\small\item\em Returns true if a function is a static function. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class User\+Object $>$ }\\void \mbox{\hyperlink{class_arcana_1_1_base_callback_af4de0a2c2e41f7e5e87d1e53ad6191d1}{bind}} (User\+Object $\ast$object, Return\+Value(User\+Object\+::$\ast$Callback\+Function)(Argument\+Types...))
+\begin{DoxyCompactList}\small\item\em Binds this callback to the member function of an object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_arcana_1_1_base_callback_abceb1a28ee038b2aec2335e672f71559}{bind}} (Return\+Value($\ast$Callback\+Function)(Argument\+Types...))
+\begin{DoxyCompactList}\small\item\em Binds a static function pointer to the callback. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_base_callback_afd3c163186a7017671e7b6fa5617722e}\label{class_arcana_1_1_base_callback_afd3c163186a7017671e7b6fa5617722e}} 
+void \mbox{\hyperlink{class_arcana_1_1_base_callback_afd3c163186a7017671e7b6fa5617722e}{unbind}} ()
+\begin{DoxyCompactList}\small\item\em Sets the object and function pointer members to null. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Return\+Value, typename... Argument\+Types$>$\newline
+class Arcana\+::\+Base\+Callback$<$ Return\+Value, Argument\+Types $>$}
+
+A templated callback class. 
+
+Functions can be bound to a callback and executed with the execute function. Callbacks can be registered with a return type and arguments. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_base_callback_a79731f710c224094f56afe210315ec05}\label{class_arcana_1_1_base_callback_a79731f710c224094f56afe210315ec05}} 
+\index{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!Base\+Callback@{Base\+Callback}}
+\index{Base\+Callback@{Base\+Callback}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}}
+\subsubsection{\texorpdfstring{Base\+Callback()}{BaseCallback()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename Return\+Value, typename... Argument\+Types$>$ \\
+\mbox{\hyperlink{class_arcana_1_1_base_callback}{Arcana\+::\+Base\+Callback}}$<$ Return\+Value, Argument\+Types $>$\+::\mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Default constructor. 
+
+The callback instance is initially null. \mbox{\Hypertarget{class_arcana_1_1_base_callback_a0a3da87cf8bd61e627dd76a7b23ab897}\label{class_arcana_1_1_base_callback_a0a3da87cf8bd61e627dd76a7b23ab897}} 
+\index{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!Base\+Callback@{Base\+Callback}}
+\index{Base\+Callback@{Base\+Callback}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}}
+\subsubsection{\texorpdfstring{Base\+Callback()}{BaseCallback()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename Return\+Value, typename... Argument\+Types$>$ \\
+\mbox{\hyperlink{class_arcana_1_1_base_callback}{Arcana\+::\+Base\+Callback}}$<$ Return\+Value, Argument\+Types $>$\+::\mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}}$<$ Return\+Value, Argument\+Types... $>$ \&}]{copy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}} copy constructor. 
+
+Copies and references the callback instance. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_base_callback_af4de0a2c2e41f7e5e87d1e53ad6191d1}\label{class_arcana_1_1_base_callback_af4de0a2c2e41f7e5e87d1e53ad6191d1}} 
+\index{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!bind@{bind}}
+\index{bind@{bind}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}}
+\subsubsection{\texorpdfstring{bind()}{bind()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename Return\+Value, typename... Argument\+Types$>$ \\
+template$<$class User\+Object $>$ \\
+void \mbox{\hyperlink{class_arcana_1_1_base_callback}{Arcana\+::\+Base\+Callback}}$<$ Return\+Value, Argument\+Types $>$\+::bind (\begin{DoxyParamCaption}\item[{User\+Object $\ast$}]{object,  }\item[{Return\+Value(User\+Object\+::$\ast$)(Argument\+Types...)}]{Callback\+Function }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Binds this callback to the member function of an object. 
+
+The User\+Object is templated; it can be of any type. The member function must take the arguments specified in the \mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}} templates. \mbox{\Hypertarget{class_arcana_1_1_base_callback_abceb1a28ee038b2aec2335e672f71559}\label{class_arcana_1_1_base_callback_abceb1a28ee038b2aec2335e672f71559}} 
+\index{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!bind@{bind}}
+\index{bind@{bind}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}}
+\subsubsection{\texorpdfstring{bind()}{bind()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename Return\+Value, typename... Argument\+Types$>$ \\
+void \mbox{\hyperlink{class_arcana_1_1_base_callback}{Arcana\+::\+Base\+Callback}}$<$ Return\+Value, Argument\+Types $>$\+::bind (\begin{DoxyParamCaption}\item[{Return\+Value($\ast$)(Argument\+Types...)}]{Callback\+Function }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Binds a static function pointer to the callback. 
+
+The static function must take the arguments specified in the \mbox{\hyperlink{class_arcana_1_1_base_callback}{Base\+Callback}} templates. \mbox{\Hypertarget{class_arcana_1_1_base_callback_ab9cba864f0037c3125ff1b5ea7a33a08}\label{class_arcana_1_1_base_callback_ab9cba864f0037c3125ff1b5ea7a33a08}} 
+\index{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!execute@{execute}}
+\index{execute@{execute}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}}
+\subsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily template$<$typename Return\+Value, typename... Argument\+Types$>$ \\
+Return\+Value \mbox{\hyperlink{class_arcana_1_1_base_callback}{Arcana\+::\+Base\+Callback}}$<$ Return\+Value, Argument\+Types $>$\+::execute (\begin{DoxyParamCaption}\item[{Argument\+Types...}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Executes the function if one is bound. 
+
+An unknown number of arguments can be passed. The argument types must coincide with the initial arguments specified in the template. \mbox{\Hypertarget{class_arcana_1_1_base_callback_a7ab7b46a89bf248c4ee798e34f1b626d}\label{class_arcana_1_1_base_callback_a7ab7b46a89bf248c4ee798e34f1b626d}} 
+\index{Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}!execute\+If\+Bound@{execute\+If\+Bound}}
+\index{execute\+If\+Bound@{execute\+If\+Bound}!Arcana\+::\+Base\+Callback@{Arcana\+::\+Base\+Callback}}
+\subsubsection{\texorpdfstring{execute\+If\+Bound()}{executeIfBound()}}
+{\footnotesize\ttfamily template$<$typename Return\+Value, typename... Argument\+Types$>$ \\
+Return\+Value \mbox{\hyperlink{class_arcana_1_1_base_callback}{Arcana\+::\+Base\+Callback}}$<$ Return\+Value, Argument\+Types $>$\+::execute\+If\+Bound (\begin{DoxyParamCaption}\item[{Argument\+Types...}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Executes the function if one is bound. 
+
+An unknown number of arguments can be passed. The argument types must coincide with the initial arguments specified in the template. This method is the same as \mbox{\hyperlink{class_arcana_1_1_base_callback_ab9cba864f0037c3125ff1b5ea7a33a08}{execute()}}, but without the assertion. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Base\+Callback.\+h\end{DoxyCompactItemize}

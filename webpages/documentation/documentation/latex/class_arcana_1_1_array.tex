@@ -1,0 +1,317 @@
+\hypertarget{class_arcana_1_1_array}{}\section{Arcana\+:\+:Array$<$ Element\+Type $>$ Class Template Reference}
+\label{class_arcana_1_1_array}\index{Arcana\+::\+Array$<$ Element\+Type $>$@{Arcana\+::\+Array$<$ Element\+Type $>$}}
+
+
+A dynamic array implementation.  
+
+
+
+
+{\ttfamily \#include $<$Array.\+h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a86a41fae7e14a94fd085bfffcc40e3b1}\label{class_arcana_1_1_array_a86a41fae7e14a94fd085bfffcc40e3b1}} 
+typedef \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}}$<$ \mbox{\hyperlink{class_arcana_1_1_array}{Array}}, Element\+Type, int32 $>$ {\bfseries Iterator}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ad04b27e3627e03c3771db375bd68bae7}\label{class_arcana_1_1_array_ad04b27e3627e03c3771db375bd68bae7}} 
+typedef \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}}$<$ const \mbox{\hyperlink{class_arcana_1_1_array}{Array}}, const Element\+Type, int32 $>$ {\bfseries Const\+Iterator}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_addac09b78eaea1ef29ccc06320478eca}\label{class_arcana_1_1_array_addac09b78eaea1ef29ccc06320478eca}} 
+\mbox{\hyperlink{class_arcana_1_1_array_addac09b78eaea1ef29ccc06320478eca}{Array}} ()
+\begin{DoxyCompactList}\small\item\em Default array constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a86acb91bd19f5c18d48ddf1e76b004c1}\label{class_arcana_1_1_array_a86acb91bd19f5c18d48ddf1e76b004c1}} 
+\mbox{\hyperlink{class_arcana_1_1_array_a86acb91bd19f5c18d48ddf1e76b004c1}{Array}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&other)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} copy constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a9b81cbd9e686a53c8d307e35740d981a}\label{class_arcana_1_1_array_a9b81cbd9e686a53c8d307e35740d981a}} 
+\mbox{\hyperlink{class_arcana_1_1_array_a9b81cbd9e686a53c8d307e35740d981a}{Array}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&other, int32 extra\+Slack)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} copy constructor with slack parameter. Copies array normally, but adds specified extra slack. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ad25159a8deca52693caaf9dd39b61fd3}\label{class_arcana_1_1_array_ad25159a8deca52693caaf9dd39b61fd3}} 
+\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \& \mbox{\hyperlink{class_arcana_1_1_array_ad25159a8deca52693caaf9dd39b61fd3}{operator=}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&other)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} assignment operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ab9ddb391868e9e4b8b8dba44778ff9e0}\label{class_arcana_1_1_array_ab9ddb391868e9e4b8b8dba44778ff9e0}} 
+\mbox{\hyperlink{class_arcana_1_1_array_ab9ddb391868e9e4b8b8dba44778ff9e0}{Array}} (\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&\&other)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} move constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_adae8ba60220ecde6bf7f53d2ff80ae90}\label{class_arcana_1_1_array_adae8ba60220ecde6bf7f53d2ff80ae90}} 
+\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \& \mbox{\hyperlink{class_arcana_1_1_array_adae8ba60220ecde6bf7f53d2ff80ae90}{operator=}} (\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&\&other)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} move assignment operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a9cc19e98ee2fc944c0c5aab64b1ae3c6}\label{class_arcana_1_1_array_a9cc19e98ee2fc944c0c5aab64b1ae3c6}} 
+\mbox{\hyperlink{class_arcana_1_1_array_a9cc19e98ee2fc944c0c5aab64b1ae3c6}{$\sim$\+Array}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} destructor. Frees allocated memory. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a5cdee51f03c8987970f841bbe07117d2}\label{class_arcana_1_1_array_a5cdee51f03c8987970f841bbe07117d2}} 
+Element\+Type $\ast$ \mbox{\hyperlink{class_arcana_1_1_array_a5cdee51f03c8987970f841bbe07117d2}{get\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Returns a raw pointer to the array data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a348d34e37a8257e4d9384740a174ab9e}\label{class_arcana_1_1_array_a348d34e37a8257e4d9384740a174ab9e}} 
+const Element\+Type $\ast$ \mbox{\hyperlink{class_arcana_1_1_array_a348d34e37a8257e4d9384740a174ab9e}{get\+Data}} () const
+\begin{DoxyCompactList}\small\item\em Returns a const pointer to the array data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a027f9a11ecfa2c31be32a9746e9ff0d2}\label{class_arcana_1_1_array_a027f9a11ecfa2c31be32a9746e9ff0d2}} 
+uint32 \mbox{\hyperlink{class_arcana_1_1_array_a027f9a11ecfa2c31be32a9746e9ff0d2}{get\+Type\+Size}} () const
+\begin{DoxyCompactList}\small\item\em Returns the size in bytes of the element type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a3dc8ca21eebaaaab6a3bc9fe3243dc15}\label{class_arcana_1_1_array_a3dc8ca21eebaaaab6a3bc9fe3243dc15}} 
+uint32 \mbox{\hyperlink{class_arcana_1_1_array_a3dc8ca21eebaaaab6a3bc9fe3243dc15}{get\+Allocated\+Size}} () const
+\begin{DoxyCompactList}\small\item\em Returns total size in bytes allocated to this array by the \mbox{\hyperlink{class_arcana_1_1_memory_allocator}{Memory\+Allocator}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ac0ffb30e2385e0154b9e50a29ad557cb}\label{class_arcana_1_1_array_ac0ffb30e2385e0154b9e50a29ad557cb}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_ac0ffb30e2385e0154b9e50a29ad557cb}{get\+Slack}} () const
+\begin{DoxyCompactList}\small\item\em Returns the amount of slack allocated. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aa7971fa123cf15e7466c6795a1d04ed6}\label{class_arcana_1_1_array_aa7971fa123cf15e7466c6795a1d04ed6}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_aa7971fa123cf15e7466c6795a1d04ed6}{check\+Invariants}} () const
+\begin{DoxyCompactList}\small\item\em Ensures a non-\/negative array size and a max size greater than or equal to the current size. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ab457f2db9ded37cbb2db24591eaf173d}\label{class_arcana_1_1_array_ab457f2db9ded37cbb2db24591eaf173d}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_ab457f2db9ded37cbb2db24591eaf173d}{range\+Check}} (int32 index) const
+\begin{DoxyCompactList}\small\item\em Ensures an index is non-\/negative and less than the array size. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a0b1c26013b63c374bc9e980e364d6e14}\label{class_arcana_1_1_array_a0b1c26013b63c374bc9e980e364d6e14}} 
+bool \mbox{\hyperlink{class_arcana_1_1_array_a0b1c26013b63c374bc9e980e364d6e14}{is\+Valid\+Index}} (int32 index) const
+\begin{DoxyCompactList}\small\item\em Return true if the index is non-\/negative and less than the array size. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a546fb9ca70679870ad1989969226c36f}\label{class_arcana_1_1_array_a546fb9ca70679870ad1989969226c36f}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_a546fb9ca70679870ad1989969226c36f}{size}} () const
+\begin{DoxyCompactList}\small\item\em Returns the number of elements in the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a1dc82d25f171e88b12c4f6a2c3ca0a86}\label{class_arcana_1_1_array_a1dc82d25f171e88b12c4f6a2c3ca0a86}} 
+int32() \mbox{\hyperlink{class_arcana_1_1_array_a1dc82d25f171e88b12c4f6a2c3ca0a86}{max}} () const
+\begin{DoxyCompactList}\small\item\em Returns the maximum number of elements that can be added without reallocating. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a3cb44835c75d9e1e3bce3bae208ec33e}\label{class_arcana_1_1_array_a3cb44835c75d9e1e3bce3bae208ec33e}} 
+Element\+Type \& \mbox{\hyperlink{class_arcana_1_1_array_a3cb44835c75d9e1e3bce3bae208ec33e}{operator\mbox{[}$\,$\mbox{]}}} (int32 index)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} offset operator. Returns a reference to the element at the specified index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ac04751f78e6846fa55a633e3acc96e23}\label{class_arcana_1_1_array_ac04751f78e6846fa55a633e3acc96e23}} 
+const Element\+Type \& \mbox{\hyperlink{class_arcana_1_1_array_ac04751f78e6846fa55a633e3acc96e23}{operator\mbox{[}$\,$\mbox{]}}} (int32 index) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} offset operator. Returns a const reference to the element at the specified index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a952855bbeb0b73ee905e088e5bd02082}\label{class_arcana_1_1_array_a952855bbeb0b73ee905e088e5bd02082}} 
+Element\+Type \mbox{\hyperlink{class_arcana_1_1_array_a952855bbeb0b73ee905e088e5bd02082}{pop}} (bool allow\+Shrinking=true)
+\begin{DoxyCompactList}\small\item\em Removes the last element in the array. If \textquotesingle{}allow\+Shrinking\textquotesingle{} is true, the \mbox{\hyperlink{class_arcana_1_1_memory_allocator}{Memory\+Allocator}} can decrease the array\textquotesingle{}s allocated memory. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a0d1872dfb564625c1eb451112b14023e}\label{class_arcana_1_1_array_a0d1872dfb564625c1eb451112b14023e}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a0d1872dfb564625c1eb451112b14023e}{push}} (Element\+Type \&\&element)
+\begin{DoxyCompactList}\small\item\em Inserts an element at the end of the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aa1c62a1fcad8d75472c0b888595f4135}\label{class_arcana_1_1_array_aa1c62a1fcad8d75472c0b888595f4135}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_aa1c62a1fcad8d75472c0b888595f4135}{push}} (const Element\+Type \&element)
+\begin{DoxyCompactList}\small\item\em Inserts an element at the end of the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a554e8d788b2780646b05ed0befd499f3}\label{class_arcana_1_1_array_a554e8d788b2780646b05ed0befd499f3}} 
+Element\+Type \& \mbox{\hyperlink{class_arcana_1_1_array_a554e8d788b2780646b05ed0befd499f3}{get\+Top}} ()
+\begin{DoxyCompactList}\small\item\em Returns a reference to the element at the end of the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a9ff544fcf26455d50e65ff94c93e18b2}\label{class_arcana_1_1_array_a9ff544fcf26455d50e65ff94c93e18b2}} 
+const Element\+Type \& \mbox{\hyperlink{class_arcana_1_1_array_a9ff544fcf26455d50e65ff94c93e18b2}{get\+Top}} () const
+\begin{DoxyCompactList}\small\item\em Returns a const reference to the element at the end of the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ae9227c910d8c56e139de5336c0613e2f}\label{class_arcana_1_1_array_ae9227c910d8c56e139de5336c0613e2f}} 
+Element\+Type \& \mbox{\hyperlink{class_arcana_1_1_array_ae9227c910d8c56e139de5336c0613e2f}{get\+Last}} (int32 index\+From\+The\+End=0)
+\begin{DoxyCompactList}\small\item\em Returns a reference to the element at a specified index from the end. Returns a reference to the last element by default. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a571a0d44ef068fd78c20e3cb186c710e}\label{class_arcana_1_1_array_a571a0d44ef068fd78c20e3cb186c710e}} 
+const Element\+Type \& \mbox{\hyperlink{class_arcana_1_1_array_a571a0d44ef068fd78c20e3cb186c710e}{get\+Last}} (int32 index\+From\+The\+End=0) const
+\begin{DoxyCompactList}\small\item\em Returns a const reference to the element at a specified index from the end. Returns a const reference to the last element by default. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_acb1fd0b98e114bb123afc1fc0174a5ff}\label{class_arcana_1_1_array_acb1fd0b98e114bb123afc1fc0174a5ff}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_acb1fd0b98e114bb123afc1fc0174a5ff}{shrink}} ()
+\begin{DoxyCompactList}\small\item\em Frees excess memory allocated as slack. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aa521421243defb4b386e47222eeacd78}\label{class_arcana_1_1_array_aa521421243defb4b386e47222eeacd78}} 
+bool \mbox{\hyperlink{class_arcana_1_1_array_aa521421243defb4b386e47222eeacd78}{find}} (const Element\+Type \&element, int32 \&index) const
+\begin{DoxyCompactList}\small\item\em Finds an element in the array. Returns true if the array contains the element. Sets \textquotesingle{}index\textquotesingle{} to the element\textquotesingle{}s index in the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a25f555ec9531e1f399bd29fce0220324}\label{class_arcana_1_1_array_a25f555ec9531e1f399bd29fce0220324}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_a25f555ec9531e1f399bd29fce0220324}{find}} (const Element\+Type \&element) const
+\begin{DoxyCompactList}\small\item\em Finds an element in the array. Returns the element\textquotesingle{}s index in the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a0c9b2fc7ca5813a37ddf1e16596b8866}\label{class_arcana_1_1_array_a0c9b2fc7ca5813a37ddf1e16596b8866}} 
+bool \mbox{\hyperlink{class_arcana_1_1_array_a0c9b2fc7ca5813a37ddf1e16596b8866}{find\+Last}} (const Element\+Type \&element, int32 \&index) const
+\begin{DoxyCompactList}\small\item\em Finds an element in the array, searching from the end. Returns true if the array contains the element. Sets \textquotesingle{}index\textquotesingle{} to the element\textquotesingle{}s index in the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aaf2c04e3072263bde3ea6c6e88104837}\label{class_arcana_1_1_array_aaf2c04e3072263bde3ea6c6e88104837}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_aaf2c04e3072263bde3ea6c6e88104837}{find\+Last}} (const Element\+Type \&element) const
+\begin{DoxyCompactList}\small\item\em Finds an element in the array, searching from the end. Returns the element\textquotesingle{}s index in the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a25d3ec6d16cc8185a35d9f97e699557a}\label{class_arcana_1_1_array_a25d3ec6d16cc8185a35d9f97e699557a}} 
+bool \mbox{\hyperlink{class_arcana_1_1_array_a25d3ec6d16cc8185a35d9f97e699557a}{operator==}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}} \&other\+Array) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} relational equivalence operator. Returns true if the size and elements of this array equal another. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_abb9a88cdfaff6f1dea83c72bbbbf8514}\label{class_arcana_1_1_array_abb9a88cdfaff6f1dea83c72bbbbf8514}} 
+bool \mbox{\hyperlink{class_arcana_1_1_array_abb9a88cdfaff6f1dea83c72bbbbf8514}{operator!=}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}} \&other\+Array) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} relational \textquotesingle{}is not equal to\textquotesingle{} operator. Returns true if either the size or elements of this array do not equal another. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_af31e33fbe2f51b9b322420eb4a43489a}\label{class_arcana_1_1_array_af31e33fbe2f51b9b322420eb4a43489a}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_af31e33fbe2f51b9b322420eb4a43489a}{add\+Uninitialized}} (int32 count=1)
+\begin{DoxyCompactList}\small\item\em Adds a specified number of uninitialized elements to the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ad8bd246353ed0bee4ef5a3a12796a029}\label{class_arcana_1_1_array_ad8bd246353ed0bee4ef5a3a12796a029}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_ad8bd246353ed0bee4ef5a3a12796a029}{insert\+Uninitialized}} (int32 index, int32 count=1)
+\begin{DoxyCompactList}\small\item\em Inserts a specified number of uninitialized elements at a certain index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a8b31d0e93b0681aefe579270d16b42ad}\label{class_arcana_1_1_array_a8b31d0e93b0681aefe579270d16b42ad}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a8b31d0e93b0681aefe579270d16b42ad}{insert\+Zeroed}} (int32 index, int32 count=1)
+\begin{DoxyCompactList}\small\item\em Inserts a specified number of zeroed elements at a certain index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a89d53c944322af03d94da36a2e674bd1}\label{class_arcana_1_1_array_a89d53c944322af03d94da36a2e674bd1}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_a89d53c944322af03d94da36a2e674bd1}{insert}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&elements, const int32 in\+Index)
+\begin{DoxyCompactList}\small\item\em Inserts all elements of another array at a certain index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aa5ecf67f722fac61e4d3bee09754d9e3}\label{class_arcana_1_1_array_aa5ecf67f722fac61e4d3bee09754d9e3}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_aa5ecf67f722fac61e4d3bee09754d9e3}{insert}} (const Element\+Type $\ast$ptr, int32 count, int32 index)
+\begin{DoxyCompactList}\small\item\em insert \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a9d5bfdb7e5b11c1f8639c8515c808bf9}\label{class_arcana_1_1_array_a9d5bfdb7e5b11c1f8639c8515c808bf9}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a9d5bfdb7e5b11c1f8639c8515c808bf9}{check\+Address}} (const Element\+Type $\ast$addr) const
+\begin{DoxyCompactList}\small\item\em Checks if a pointer to an element already exists within the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a11cbb85628be75cbe34b7af08aacb9fd}\label{class_arcana_1_1_array_a11cbb85628be75cbe34b7af08aacb9fd}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_a11cbb85628be75cbe34b7af08aacb9fd}{insert}} (Element\+Type \&\&element, int32 index)
+\begin{DoxyCompactList}\small\item\em Inserts an element at a certain index. ((((((((((((((((((((((((((M\+O\+V\+E\+T\+E\+MP)))))))))))))))))))))))))) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ac3d8c3c4fad49a11a7cef30d163f76da}\label{class_arcana_1_1_array_ac3d8c3c4fad49a11a7cef30d163f76da}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_array_ac3d8c3c4fad49a11a7cef30d163f76da}{insert}} (const Element\+Type \&element, int32 index)
+\begin{DoxyCompactList}\small\item\em Inserts an element at a certain index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a252c6ecf3bf4806e67e02f758a6634cf}\label{class_arcana_1_1_array_a252c6ecf3bf4806e67e02f758a6634cf}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a252c6ecf3bf4806e67e02f758a6634cf}{remove\+At}} (int32 index, int32 count=1, bool allow\+Shrinking=true)
+\begin{DoxyCompactList}\small\item\em Removes a specified number of elements at a certain index. If \textquotesingle{}allow\+Shrinking\textquotesingle{} is true, the \mbox{\hyperlink{class_arcana_1_1_memory_allocator}{Memory\+Allocator}} can decrease the array\textquotesingle{}s allocated memory. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_arcana_1_1_array_ad6aca0bea9702efa10f13b589a82630a}{remove\+At\+Swap}} (int32 index, int32 count=1, bool allow\+Shrinking=true)
+\begin{DoxyCompactList}\small\item\em remove\+At\+Swap \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ad92b1061b9c3058b3ab772ab3b99a944}\label{class_arcana_1_1_array_ad92b1061b9c3058b3ab772ab3b99a944}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_ad92b1061b9c3058b3ab772ab3b99a944}{reset}} (int32 new\+Size=0)
+\begin{DoxyCompactList}\small\item\em reset \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a01bdecc9bec607e3fabc8bde5198fadb}\label{class_arcana_1_1_array_a01bdecc9bec607e3fabc8bde5198fadb}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a01bdecc9bec607e3fabc8bde5198fadb}{empty}} (int32 slack=0)
+\begin{DoxyCompactList}\small\item\em empty \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a3c74bd3c106f7e9886dae9312dc718d9}\label{class_arcana_1_1_array_a3c74bd3c106f7e9886dae9312dc718d9}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a3c74bd3c106f7e9886dae9312dc718d9}{set\+Size}} (int32 new\+Size, bool allow\+Shrinking=true)
+\begin{DoxyCompactList}\small\item\em Sets the new size of the array. Adds default elements if the new size is greater than the current size. Removes elements if the new size is less than the current size. \textquotesingle{}allow\+Shrinking\textquotesingle{} is passed to remove\+At if the second condition applies. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_afd840db9b03bf4a78ea85b25491db2b5}\label{class_arcana_1_1_array_afd840db9b03bf4a78ea85b25491db2b5}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_afd840db9b03bf4a78ea85b25491db2b5}{set\+Size\+Zeroed}} (int32 new\+Size)
+\begin{DoxyCompactList}\small\item\em Sets the new size of the array. Adds zeroed elements if the new size is greater than the current size. Removes elements if the new size is less than the current size. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a6637be0f19593819cbf47e7a4d869b3f}\label{class_arcana_1_1_array_a6637be0f19593819cbf47e7a4d869b3f}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a6637be0f19593819cbf47e7a4d869b3f}{set\+Size\+Uninitialized}} (int32 new\+Size)
+\begin{DoxyCompactList}\small\item\em Sets the new size of the array. Adds uninitialized elements if the new size is greater than the current size. Removes elements if the new size is less than the current size. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a8fa733f0d3e13a2067d8bc6462cfc60a}\label{class_arcana_1_1_array_a8fa733f0d3e13a2067d8bc6462cfc60a}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_a8fa733f0d3e13a2067d8bc6462cfc60a}{append}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&source)
+\begin{DoxyCompactList}\small\item\em Appends the elements of another array to the end of this array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aca40297996dfef58203d696aae1c14e0}\label{class_arcana_1_1_array_aca40297996dfef58203d696aae1c14e0}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_aca40297996dfef58203d696aae1c14e0}{append}} (\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&\&source)
+\begin{DoxyCompactList}\small\item\em Appends the elements of another array to the end of this array. Moves the elements from source to this array. The source array ends with a size of zero. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aa752725a3b448d4b98342e76bec03bac}\label{class_arcana_1_1_array_aa752725a3b448d4b98342e76bec03bac}} 
+void \mbox{\hyperlink{class_arcana_1_1_array_aa752725a3b448d4b98342e76bec03bac}{append}} (const Element\+Type $\ast$ptr, int32 count)
+\begin{DoxyCompactList}\small\item\em append \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a297a0424927c11655f0682849dc12b23}\label{class_arcana_1_1_array_a297a0424927c11655f0682849dc12b23}} 
+\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \& \mbox{\hyperlink{class_arcana_1_1_array_a297a0424927c11655f0682849dc12b23}{operator+=}} (\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&\&other)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} addition assignment operator. Moves the elements from another array to this one. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ad05d0afe40b37ce410fd6d2e83f27a7f}\label{class_arcana_1_1_array_ad05d0afe40b37ce410fd6d2e83f27a7f}} 
+\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \& \mbox{\hyperlink{class_arcana_1_1_array_ad05d0afe40b37ce410fd6d2e83f27a7f}{operator+=}} (const \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ \&other)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_array}{Array}} addition assignment operator. Appends the elements from another array to this one. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ab304b41a36510ba79360669fbc44d6dc}\label{class_arcana_1_1_array_ab304b41a36510ba79360669fbc44d6dc}} 
+int32 {\bfseries add} (Element\+Type \&\&element)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ae441be61af8f65974411f029e1b3be8f}\label{class_arcana_1_1_array_ae441be61af8f65974411f029e1b3be8f}} 
+int32 {\bfseries add} (const Element\+Type \&element)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a841aab9774dd15b7af43df40b3045923}\label{class_arcana_1_1_array_a841aab9774dd15b7af43df40b3045923}} 
+int32 {\bfseries add\+Zeroed} (int32 count=1)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a6929485aa23c8c83f05511e043815e60}\label{class_arcana_1_1_array_a6929485aa23c8c83f05511e043815e60}} 
+int32 {\bfseries add\+Defaulted} (int32 count=1)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ac3adf9aa74707ee34c6b2dd017a2e39d}\label{class_arcana_1_1_array_ac3adf9aa74707ee34c6b2dd017a2e39d}} 
+{\footnotesize template$<$typename... Args\+Type$>$ }\\int32 {\bfseries emplace} (Args\+Type \&\&... args)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a4477ce5f16f9ee7455f9679b4361de4b}\label{class_arcana_1_1_array_a4477ce5f16f9ee7455f9679b4361de4b}} 
+int32 {\bfseries add\+Unique} (Element\+Type \&\&element)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a7f4b8ee72c384541c1019f3382811a6a}\label{class_arcana_1_1_array_a7f4b8ee72c384541c1019f3382811a6a}} 
+int32 {\bfseries add\+Unique} (const Element\+Type \&element)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a1e2216c39f180f60c567b4b4af811574}\label{class_arcana_1_1_array_a1e2216c39f180f60c567b4b4af811574}} 
+void {\bfseries reserve} (int32 number)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ab73da86c74eb92a05f0d6d513b050266}\label{class_arcana_1_1_array_ab73da86c74eb92a05f0d6d513b050266}} 
+void {\bfseries init} (const Element\+Type \&element, int32 number)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a02c0739f0cce1c5f7d6e65ba718e8acd}\label{class_arcana_1_1_array_a02c0739f0cce1c5f7d6e65ba718e8acd}} 
+int32 {\bfseries remove\+Single} (const Element\+Type \&element)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_aa3feaba88749ef4b2c552139a5aac6ba}\label{class_arcana_1_1_array_aa3feaba88749ef4b2c552139a5aac6ba}} 
+int32 {\bfseries remove} (const Element\+Type \&element)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a849750b62acc0b3554d63dc2dbf7f382}\label{class_arcana_1_1_array_a849750b62acc0b3554d63dc2dbf7f382}} 
+int32 {\bfseries remove\+Single\+Swap} (const Element\+Type \&element, bool allow\+Shrinking=true)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_af950b1dd843709ce88930dec867e93db}\label{class_arcana_1_1_array_af950b1dd843709ce88930dec867e93db}} 
+int32 {\bfseries remove\+Swap} (const Element\+Type \&element)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ac42d537277a747961d62b0e591d4391a}\label{class_arcana_1_1_array_ac42d537277a747961d62b0e591d4391a}} 
+void {\bfseries swap\+Memory} (int32 first\+Index\+To\+Swap, int32 second\+Index\+To\+Swap)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a5873c440c62d072d2bef2dec178ac447}\label{class_arcana_1_1_array_a5873c440c62d072d2bef2dec178ac447}} 
+void {\bfseries swap} (int32 first\+Index\+To\+Swap, int32 second\+Index\+To\+Swap)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a88d753cbf13d4855581bf4873bbd35e6}\label{class_arcana_1_1_array_a88d753cbf13d4855581bf4873bbd35e6}} 
+{\footnotesize template$<$class Predicate $>$ }\\int32 {\bfseries remove\+All} (const Predicate \&predicate)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a7a1dbc9cdd4b134a23dbb0703c40ed41}\label{class_arcana_1_1_array_a7a1dbc9cdd4b134a23dbb0703c40ed41}} 
+{\footnotesize template$<$class Predicate $>$ }\\void {\bfseries remove\+All\+Swap} (const Predicate \&predicate, bool allow\+Shrinking=true)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a797e326ddcdcb23c33903330a7b12266}\label{class_arcana_1_1_array_a797e326ddcdcb23c33903330a7b12266}} 
+{\footnotesize template$<$typename Predicate $>$ }\\int32 {\bfseries find\+Last\+By\+Predicate} (Predicate predicate, int32 start\+Index) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a6feae475b80366538fcb0eefff8b508d}\label{class_arcana_1_1_array_a6feae475b80366538fcb0eefff8b508d}} 
+{\footnotesize template$<$typename Predicate $>$ }\\int32 {\bfseries find\+Last\+By\+Predicate} (Predicate predicate) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ab6c8e606ca971442601228e9e7d33915}\label{class_arcana_1_1_array_ab6c8e606ca971442601228e9e7d33915}} 
+{\footnotesize template$<$typename Key\+Type $>$ }\\int32 {\bfseries index\+Of\+By\+Key} (const Key\+Type \&key) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a4a65e9390a9eb3d6261a9b2eeb36850e}\label{class_arcana_1_1_array_a4a65e9390a9eb3d6261a9b2eeb36850e}} 
+{\footnotesize template$<$typename Predicate $>$ }\\int32 {\bfseries index\+Of\+By\+Predicate} (Predicate predicate) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_af0144676076185e4e04b0a55e1908d87}\label{class_arcana_1_1_array_af0144676076185e4e04b0a55e1908d87}} 
+{\footnotesize template$<$typename Key\+Type $>$ }\\const Element\+Type $\ast$ {\bfseries find\+By\+Key} (const Key\+Type \&key) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ac2a08c383188b119963d6cf1ae3d346f}\label{class_arcana_1_1_array_ac2a08c383188b119963d6cf1ae3d346f}} 
+{\footnotesize template$<$typename Key\+Type $>$ }\\Element\+Type $\ast$ {\bfseries find\+By\+Key} (const Key\+Type \&key)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a84a805f1dae325c1e8cc771649f62742}\label{class_arcana_1_1_array_a84a805f1dae325c1e8cc771649f62742}} 
+{\footnotesize template$<$typename Predicate $>$ }\\const Element\+Type $\ast$ {\bfseries find\+By\+Predicate} (Predicate predicate) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a06e35742517a26330ab18ee560bd431f}\label{class_arcana_1_1_array_a06e35742517a26330ab18ee560bd431f}} 
+{\footnotesize template$<$typename Predicate $>$ }\\Element\+Type $\ast$ {\bfseries find\+By\+Predicate} (Predicate predicate)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ac4a0b81bfd32672a08de73e93e7ebf38}\label{class_arcana_1_1_array_ac4a0b81bfd32672a08de73e93e7ebf38}} 
+{\footnotesize template$<$typename Predicate $>$ }\\\mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ Element\+Type $>$ {\bfseries filter\+By\+Predicate} (Predicate predicate) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a23b45b0a84e1c69d9b52678c6ecc08b3}\label{class_arcana_1_1_array_a23b45b0a84e1c69d9b52678c6ecc08b3}} 
+{\footnotesize template$<$typename Comparison\+Type $>$ }\\bool {\bfseries contains} (const Comparison\+Type \&element) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a800f746edb8f36f07fc0c41638d9db45}\label{class_arcana_1_1_array_a800f746edb8f36f07fc0c41638d9db45}} 
+{\footnotesize template$<$typename Predicate $>$ }\\bool {\bfseries contains\+By\+Predicate} (Predicate predicate) const
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a964d40b16b58d3969b00b1f1ce694ccf}\label{class_arcana_1_1_array_a964d40b16b58d3969b00b1f1ce694ccf}} 
+{\footnotesize template$<$typename T $>$ }\\void $\ast$ {\bfseries operator new} (size\+\_\+t \mbox{\hyperlink{class_arcana_1_1_array_a546fb9ca70679870ad1989969226c36f}{size}}, \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ T $>$ \&array)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a94ccd11a187090ad289d7503306189dc}\label{class_arcana_1_1_array_a94ccd11a187090ad289d7503306189dc}} 
+{\footnotesize template$<$typename T $>$ }\\void $\ast$ {\bfseries operator new} (size\+\_\+t \mbox{\hyperlink{class_arcana_1_1_array_a546fb9ca70679870ad1989969226c36f}{size}}, \mbox{\hyperlink{class_arcana_1_1_array}{Array}}$<$ T $>$ \&array, int32 index)
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a2290741e70f2b13e83691ca97ec18208}\label{class_arcana_1_1_array_a2290741e70f2b13e83691ca97ec18208}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Iterator}} {\bfseries create\+Iterator} ()
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a91bcbe82e6d145c5eb1573ce8d3f1573}\label{class_arcana_1_1_array_a91bcbe82e6d145c5eb1573ce8d3f1573}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Const\+Iterator}} {\bfseries create\+Const\+Iterator} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_ad3fd338f18e1883577d67db6cb3ad940}\label{class_arcana_1_1_array_ad3fd338f18e1883577d67db6cb3ad940}} 
+\mbox{\hyperlink{class_arcana_1_1_memory_allocator}{Memory\+Allocator}} {\bfseries \+\_\+memory\+Allocator}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a8698ceab34bd5f5acef2514448c4d5ec}\label{class_arcana_1_1_array_a8698ceab34bd5f5acef2514448c4d5ec}} 
+int32 {\bfseries \+\_\+array\+Num}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_array_a8082d504794dbf5eacfe2dfee7cb72ee}\label{class_arcana_1_1_array_a8082d504794dbf5eacfe2dfee7cb72ee}} 
+int32 {\bfseries \+\_\+array\+Max}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Element\+Type$>$\newline
+class Arcana\+::\+Array$<$ Element\+Type $>$}
+
+A dynamic array implementation. 
+
+This container class stores elements with a pointer. It quickly adds elements by allocating slack when the number of elements is too large. This class provides methods for managing and manipulating array elements (sorting, inserting, searching, etc.). 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_array_ad6aca0bea9702efa10f13b589a82630a}\label{class_arcana_1_1_array_ad6aca0bea9702efa10f13b589a82630a}} 
+\index{Arcana\+::\+Array@{Arcana\+::\+Array}!remove\+At\+Swap@{remove\+At\+Swap}}
+\index{remove\+At\+Swap@{remove\+At\+Swap}!Arcana\+::\+Array@{Arcana\+::\+Array}}
+\subsubsection{\texorpdfstring{remove\+At\+Swap()}{removeAtSwap()}}
+{\footnotesize\ttfamily template$<$typename Element\+Type $>$ \\
+void \mbox{\hyperlink{class_arcana_1_1_array}{Arcana\+::\+Array}}$<$ Element\+Type $>$\+::remove\+At\+Swap (\begin{DoxyParamCaption}\item[{int32}]{index,  }\item[{int32}]{count = {\ttfamily 1},  }\item[{bool}]{allow\+Shrinking = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+remove\+At\+Swap 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Array.\+h\item 
+Array.\+inl\end{DoxyCompactItemize}

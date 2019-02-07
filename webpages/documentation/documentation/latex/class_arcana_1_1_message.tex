@@ -1,0 +1,74 @@
+\hypertarget{class_arcana_1_1_message}{}\section{Arcana\+:\+:Message Class Reference}
+\label{class_arcana_1_1_message}\index{Arcana\+::\+Message@{Arcana\+::\+Message}}
+
+
+This class manages the lifetime of an \mbox{\hyperlink{class_arcana_1_1_event}{Event}} pointer.  
+
+
+
+
+{\ttfamily \#include $<$Message.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_message_ab3cbb035a75bbca7335238fc904cf685}\label{class_arcana_1_1_message_ab3cbb035a75bbca7335238fc904cf685}} 
+\mbox{\hyperlink{class_arcana_1_1_message_ab3cbb035a75bbca7335238fc904cf685}{Message}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_message}{Message}} default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_arcana_1_1_message_aca77fd2984b45c908631451d1ab29fa1}{Message}} (\mbox{\hyperlink{class_arcana_1_1_event}{Event}} $\ast$event)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_message}{Message}} event constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_arcana_1_1_message_a4c1cb77c70947ff48b6f54f83b94e141}{Message}} (const \mbox{\hyperlink{class_arcana_1_1_message}{Message}} \&message)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_message}{Message}} copy constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_arcana_1_1_message_a08fee1d23b404de28250cc3e61bdef6b}{$\sim$\+Message}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_message}{Message}} destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_message_a467ff543095f62784bb96f0d47d5c534}\label{class_arcana_1_1_message_a467ff543095f62784bb96f0d47d5c534}} 
+void \mbox{\hyperlink{class_arcana_1_1_message_a467ff543095f62784bb96f0d47d5c534}{set\+Event}} (\mbox{\hyperlink{class_arcana_1_1_event}{Event}} $\ast$event)
+\begin{DoxyCompactList}\small\item\em Sets the event pointer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_message_a3144ea29e7d6690d739b6108a982682e}\label{class_arcana_1_1_message_a3144ea29e7d6690d739b6108a982682e}} 
+\mbox{\hyperlink{class_arcana_1_1_event}{Event}} \& \mbox{\hyperlink{class_arcana_1_1_message_a3144ea29e7d6690d739b6108a982682e}{get\+Event}} ()
+\begin{DoxyCompactList}\small\item\em Dereferences the event pointer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_message_ad95056caca487439a787772ae62de53e}\label{class_arcana_1_1_message_ad95056caca487439a787772ae62de53e}} 
+\mbox{\hyperlink{class_arcana_1_1_message}{Message}} \& \mbox{\hyperlink{class_arcana_1_1_message_ad95056caca487439a787772ae62de53e}{operator=}} (const \mbox{\hyperlink{class_arcana_1_1_message}{Message}} \&msg)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_message}{Message}} assignment operator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class manages the lifetime of an \mbox{\hyperlink{class_arcana_1_1_event}{Event}} pointer. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_message_aca77fd2984b45c908631451d1ab29fa1}\label{class_arcana_1_1_message_aca77fd2984b45c908631451d1ab29fa1}} 
+\index{Arcana\+::\+Message@{Arcana\+::\+Message}!Message@{Message}}
+\index{Message@{Message}!Arcana\+::\+Message@{Arcana\+::\+Message}}
+\subsubsection{\texorpdfstring{Message()}{Message()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Arcana\+::\+Message\+::\+Message (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arcana_1_1_event}{Event}} $\ast$}]{event }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_arcana_1_1_message}{Message}} event constructor. 
+
+References and stores the event pointer. \mbox{\Hypertarget{class_arcana_1_1_message_a4c1cb77c70947ff48b6f54f83b94e141}\label{class_arcana_1_1_message_a4c1cb77c70947ff48b6f54f83b94e141}} 
+\index{Arcana\+::\+Message@{Arcana\+::\+Message}!Message@{Message}}
+\index{Message@{Message}!Arcana\+::\+Message@{Arcana\+::\+Message}}
+\subsubsection{\texorpdfstring{Message()}{Message()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Arcana\+::\+Message\+::\+Message (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_arcana_1_1_message}{Message}} \&}]{message }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_arcana_1_1_message}{Message}} copy constructor. 
+
+References and stores the event pointer. \mbox{\Hypertarget{class_arcana_1_1_message_a08fee1d23b404de28250cc3e61bdef6b}\label{class_arcana_1_1_message_a08fee1d23b404de28250cc3e61bdef6b}} 
+\index{Arcana\+::\+Message@{Arcana\+::\+Message}!````~Message@{$\sim$\+Message}}
+\index{````~Message@{$\sim$\+Message}!Arcana\+::\+Message@{Arcana\+::\+Message}}
+\subsubsection{\texorpdfstring{$\sim$\+Message()}{~Message()}}
+{\footnotesize\ttfamily Arcana\+::\+Message\+::$\sim$\+Message (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_arcana_1_1_message}{Message}} destructor. 
+
+Releases the event pointer. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Message.\+h\item 
+Message.\+cpp\end{DoxyCompactItemize}

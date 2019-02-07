@@ -1,0 +1,113 @@
+\hypertarget{class_arcana_1_1_callback_instance}{}\section{Arcana\+:\+:Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$ Class Template Reference}
+\label{class_arcana_1_1_callback_instance}\index{Arcana\+::\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$@{Arcana\+::\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$}}
+
+
+An instance of a callback.  
+
+
+
+
+{\ttfamily \#include $<$Callback\+Instance.\+h$>$}
+
+Inheritance diagram for Arcana\+:\+:Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_arcana_1_1_callback_instance}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual Return\+Value \mbox{\hyperlink{class_arcana_1_1_callback_instance_aa5bd9b4ee2129a0c22a98f7fa1cfc724}{execute}} (Argument\+Types \&\&... args)=0
+\begin{DoxyCompactList}\small\item\em Executes the function. \end{DoxyCompactList}\item 
+virtual Return\+Value \mbox{\hyperlink{class_arcana_1_1_callback_instance_af4aced5d787cabb857931ecd87c3ab50}{execute\+If\+Bound}} (Argument\+Types \&\&... args)=0
+\begin{DoxyCompactList}\small\item\em Executes the function. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_callback_instance_a017ab425cf14a399e93cef08d8dbfc71}\label{class_arcana_1_1_callback_instance_a017ab425cf14a399e93cef08d8dbfc71}} 
+virtual bool \mbox{\hyperlink{class_arcana_1_1_callback_instance_a017ab425cf14a399e93cef08d8dbfc71}{is\+Bound}} ()=0
+\begin{DoxyCompactList}\small\item\em Returns true if a function pointer is bound. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_callback_instance_a00ff80b8068277052d2814984dfec319}\label{class_arcana_1_1_callback_instance_a00ff80b8068277052d2814984dfec319}} 
+virtual bool \mbox{\hyperlink{class_arcana_1_1_callback_instance_a00ff80b8068277052d2814984dfec319}{is\+Static\+Function}} () const =0
+\begin{DoxyCompactList}\small\item\em Returns true if a function is a static function. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_callback_instance_a679d5aba1aa39d3d7609a908b35dd5f3}\label{class_arcana_1_1_callback_instance_a679d5aba1aa39d3d7609a908b35dd5f3}} 
+virtual void \mbox{\hyperlink{class_arcana_1_1_callback_instance_a679d5aba1aa39d3d7609a908b35dd5f3}{unbind}} ()=0
+\begin{DoxyCompactList}\small\item\em Sets the object and function pointer members to null. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_arcana_1_1_callback_instance_a55e87e320e0133a4274c60e87a391a7e}{bind}} (void $\ast$object, void(Object\+::$\ast$)())
+\begin{DoxyCompactList}\small\item\em Binds this callback to the member function of an object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_arcana_1_1_callback_instance_a6d9b12af5b8a98b782257a7b10eaa7e9}{bind}} (Return\+Value($\ast$Callback\+Function)(Argument\+Types...))
+\begin{DoxyCompactList}\small\item\em Binds a static function pointer to the callback. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Object\+Type, typename Return\+Value, typename... Argument\+Types$>$\newline
+class Arcana\+::\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$}
+
+An instance of a callback. 
+
+This class wraps either a static or member function pointer. Derived classes implement one of the bind methods (one for member functions, one for static functions). 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_callback_instance_a55e87e320e0133a4274c60e87a391a7e}\label{class_arcana_1_1_callback_instance_a55e87e320e0133a4274c60e87a391a7e}} 
+\index{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!bind@{bind}}
+\index{bind@{bind}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}}
+\subsubsection{\texorpdfstring{bind()}{bind()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename Object\+Type, typename Return\+Value, typename... Argument\+Types$>$ \\
+virtual void \mbox{\hyperlink{class_arcana_1_1_callback_instance}{Arcana\+::\+Callback\+Instance}}$<$ Object\+Type, Return\+Value, Argument\+Types $>$\+::bind (\begin{DoxyParamCaption}\item[{void $\ast$}]{object,  }\item[{void(Object\+::$\ast$)()}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Binds this callback to the member function of an object. 
+
+The member function must take the arguments specified in the \mbox{\hyperlink{class_arcana_1_1_callback_instance}{Callback\+Instance}} templates. 
+
+Reimplemented in \mbox{\hyperlink{class_arcana_1_1_member_function_callback_instance_ae93ba2e166f268d480431bb7dfd00140}{Arcana\+::\+Member\+Function\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$}}.
+
+\mbox{\Hypertarget{class_arcana_1_1_callback_instance_a6d9b12af5b8a98b782257a7b10eaa7e9}\label{class_arcana_1_1_callback_instance_a6d9b12af5b8a98b782257a7b10eaa7e9}} 
+\index{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!bind@{bind}}
+\index{bind@{bind}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}}
+\subsubsection{\texorpdfstring{bind()}{bind()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename Object\+Type, typename Return\+Value, typename... Argument\+Types$>$ \\
+virtual void \mbox{\hyperlink{class_arcana_1_1_callback_instance}{Arcana\+::\+Callback\+Instance}}$<$ Object\+Type, Return\+Value, Argument\+Types $>$\+::bind (\begin{DoxyParamCaption}\item[{Return\+Value($\ast$)(Argument\+Types...)}]{Callback\+Function }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Binds a static function pointer to the callback. 
+
+The static function must take the arguments specified in the \mbox{\hyperlink{class_arcana_1_1_callback_instance}{Callback\+Instance}} templates. 
+
+Reimplemented in \mbox{\hyperlink{class_arcana_1_1_static_function_callback_instance_aaf3de60d3146a2cb8946976d73a6ab2c}{Arcana\+::\+Static\+Function\+Callback\+Instance$<$ Return\+Value, Argument\+Types $>$}}.
+
+\mbox{\Hypertarget{class_arcana_1_1_callback_instance_aa5bd9b4ee2129a0c22a98f7fa1cfc724}\label{class_arcana_1_1_callback_instance_aa5bd9b4ee2129a0c22a98f7fa1cfc724}} 
+\index{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!execute@{execute}}
+\index{execute@{execute}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}}
+\subsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily template$<$typename Object\+Type, typename Return\+Value, typename... Argument\+Types$>$ \\
+virtual Return\+Value \mbox{\hyperlink{class_arcana_1_1_callback_instance}{Arcana\+::\+Callback\+Instance}}$<$ Object\+Type, Return\+Value, Argument\+Types $>$\+::execute (\begin{DoxyParamCaption}\item[{Argument\+Types \&\&...}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Executes the function. 
+
+An unknown number of arguments can be passed. The argument types must coincide with the initial arguments specified in the template. 
+
+Implemented in \mbox{\hyperlink{class_arcana_1_1_member_function_callback_instance_aa3da0ee51ae4a6465844c7af67da7d83}{Arcana\+::\+Member\+Function\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$}}, and \mbox{\hyperlink{class_arcana_1_1_static_function_callback_instance_a9666f5e80b24e6e38e5d3766a6a577ac}{Arcana\+::\+Static\+Function\+Callback\+Instance$<$ Return\+Value, Argument\+Types $>$}}.
+
+\mbox{\Hypertarget{class_arcana_1_1_callback_instance_af4aced5d787cabb857931ecd87c3ab50}\label{class_arcana_1_1_callback_instance_af4aced5d787cabb857931ecd87c3ab50}} 
+\index{Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}!execute\+If\+Bound@{execute\+If\+Bound}}
+\index{execute\+If\+Bound@{execute\+If\+Bound}!Arcana\+::\+Callback\+Instance@{Arcana\+::\+Callback\+Instance}}
+\subsubsection{\texorpdfstring{execute\+If\+Bound()}{executeIfBound()}}
+{\footnotesize\ttfamily template$<$typename Object\+Type, typename Return\+Value, typename... Argument\+Types$>$ \\
+virtual Return\+Value \mbox{\hyperlink{class_arcana_1_1_callback_instance}{Arcana\+::\+Callback\+Instance}}$<$ Object\+Type, Return\+Value, Argument\+Types $>$\+::execute\+If\+Bound (\begin{DoxyParamCaption}\item[{Argument\+Types \&\&...}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Executes the function. 
+
+An unknown number of arguments can be passed. The argument types must coincide with the initial arguments specified in the template. This method is the same as \mbox{\hyperlink{class_arcana_1_1_callback_instance_aa5bd9b4ee2129a0c22a98f7fa1cfc724}{execute()}}, but without the assertion. 
+
+Implemented in \mbox{\hyperlink{class_arcana_1_1_member_function_callback_instance_a4d8c12162b9d7b42ad9916d2dba5327d}{Arcana\+::\+Member\+Function\+Callback\+Instance$<$ Object\+Type, Return\+Value, Argument\+Types $>$}}, and \mbox{\hyperlink{class_arcana_1_1_static_function_callback_instance_a1e498222014df725ab8dfb737b48c2ef}{Arcana\+::\+Static\+Function\+Callback\+Instance$<$ Return\+Value, Argument\+Types $>$}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Callback\+Instance.\+h\end{DoxyCompactItemize}

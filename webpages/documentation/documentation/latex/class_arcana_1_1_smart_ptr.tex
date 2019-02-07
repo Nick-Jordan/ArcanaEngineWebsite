@@ -1,0 +1,70 @@
+\hypertarget{class_arcana_1_1_smart_ptr}{}\section{Arcana\+:\+:Smart\+Ptr$<$ Object\+Type $>$ Class Template Reference}
+\label{class_arcana_1_1_smart_ptr}\index{Arcana\+::\+Smart\+Ptr$<$ Object\+Type $>$@{Arcana\+::\+Smart\+Ptr$<$ Object\+Type $>$}}
+
+
+A templated smart pointer implementation.  
+
+
+
+
+{\ttfamily \#include $<$Smart\+Ptr.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_ac5402f3afb6aaec3488ce68dfc3cef90}\label{class_arcana_1_1_smart_ptr_ac5402f3afb6aaec3488ce68dfc3cef90}} 
+\mbox{\hyperlink{class_arcana_1_1_smart_ptr_ac5402f3afb6aaec3488ce68dfc3cef90}{Smart\+Ptr}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} default constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_a0b767e277796018d3c670bc4cd4339f6}\label{class_arcana_1_1_smart_ptr_a0b767e277796018d3c670bc4cd4339f6}} 
+\mbox{\hyperlink{class_arcana_1_1_smart_ptr_a0b767e277796018d3c670bc4cd4339f6}{Smart\+Ptr}} (Object\+Type $\ast$pointer)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} constructor with raw pointer argument. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_ae43a5c6b6a9ad9b796fdc65a9b514dea}\label{class_arcana_1_1_smart_ptr_ae43a5c6b6a9ad9b796fdc65a9b514dea}} 
+\mbox{\hyperlink{class_arcana_1_1_smart_ptr_ae43a5c6b6a9ad9b796fdc65a9b514dea}{Smart\+Ptr}} (const \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}}$<$ Object\+Type $>$ \&ptr)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} copy constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_a045e89c8708a1c59cd796bf067aedeb9}\label{class_arcana_1_1_smart_ptr_a045e89c8708a1c59cd796bf067aedeb9}} 
+\mbox{\hyperlink{class_arcana_1_1_smart_ptr_a045e89c8708a1c59cd796bf067aedeb9}{$\sim$\+Smart\+Ptr}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_ac030bd8f3d58c7a68fb95dcb9706f200}\label{class_arcana_1_1_smart_ptr_ac030bd8f3d58c7a68fb95dcb9706f200}} 
+void \mbox{\hyperlink{class_arcana_1_1_smart_ptr_ac030bd8f3d58c7a68fb95dcb9706f200}{Add\+Reference}} ()
+\begin{DoxyCompactList}\small\item\em Increments the reference counter. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_a285a88806044e2511cff05d518155d44}\label{class_arcana_1_1_smart_ptr_a285a88806044e2511cff05d518155d44}} 
+unsigned int \mbox{\hyperlink{class_arcana_1_1_smart_ptr_a285a88806044e2511cff05d518155d44}{Release}} ()
+\begin{DoxyCompactList}\small\item\em Decrements the reference counter. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_a2be3bbf5dad11cadae6b1fb1a919d856}\label{class_arcana_1_1_smart_ptr_a2be3bbf5dad11cadae6b1fb1a919d856}} 
+unsigned int \mbox{\hyperlink{class_arcana_1_1_smart_ptr_a2be3bbf5dad11cadae6b1fb1a919d856}{get\+Reference\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Returns the current reference count. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_af5f79de9fbc64cd52ae1d86ce37b7413}\label{class_arcana_1_1_smart_ptr_af5f79de9fbc64cd52ae1d86ce37b7413}} 
+Object\+Type $\ast$ \mbox{\hyperlink{class_arcana_1_1_smart_ptr_af5f79de9fbc64cd52ae1d86ce37b7413}{get}} ()
+\begin{DoxyCompactList}\small\item\em Returns the raw pointer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_ac3c58a2d34feaf13acfbc169ff5c5fd7}\label{class_arcana_1_1_smart_ptr_ac3c58a2d34feaf13acfbc169ff5c5fd7}} 
+bool \mbox{\hyperlink{class_arcana_1_1_smart_ptr_ac3c58a2d34feaf13acfbc169ff5c5fd7}{is\+Null}} () const
+\begin{DoxyCompactList}\small\item\em Returns true if the raw pointer is null. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_a744b212f106c170670c39bb5adc0d0f1}\label{class_arcana_1_1_smart_ptr_a744b212f106c170670c39bb5adc0d0f1}} 
+Object\+Type \& \mbox{\hyperlink{class_arcana_1_1_smart_ptr_a744b212f106c170670c39bb5adc0d0f1}{operator$\ast$}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} dereference operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_a9cfe4b62b99c3392d9fc3c7b178538ad}\label{class_arcana_1_1_smart_ptr_a9cfe4b62b99c3392d9fc3c7b178538ad}} 
+Object\+Type $\ast$ \mbox{\hyperlink{class_arcana_1_1_smart_ptr_a9cfe4b62b99c3392d9fc3c7b178538ad}{operator-\/$>$}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} pointer member access operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_aebce2e7f34d947953cfa3851fb80c48e}\label{class_arcana_1_1_smart_ptr_aebce2e7f34d947953cfa3851fb80c48e}} 
+\mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} \& \mbox{\hyperlink{class_arcana_1_1_smart_ptr_aebce2e7f34d947953cfa3851fb80c48e}{operator=}} (const \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} \&ptr)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} assignement operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_a61060689549c98ec94d013e2226a5967}\label{class_arcana_1_1_smart_ptr_a61060689549c98ec94d013e2226a5967}} 
+bool \mbox{\hyperlink{class_arcana_1_1_smart_ptr_a61060689549c98ec94d013e2226a5967}{operator==}} (const \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} \&other)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} relational equivalence operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_smart_ptr_aa991f679949c5e8f213f70924c8eddf2}\label{class_arcana_1_1_smart_ptr_aa991f679949c5e8f213f70924c8eddf2}} 
+\mbox{\hyperlink{class_arcana_1_1_smart_ptr_aa991f679949c5e8f213f70924c8eddf2}{operator bool}} () const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_smart_ptr}{Smart\+Ptr}} boolean conversion operator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Object\+Type = Object$>$\newline
+class Arcana\+::\+Smart\+Ptr$<$ Object\+Type $>$}
+
+A templated smart pointer implementation. 
+
+Smart pointers wrap raw pointers, deleting the raw pointers upon destruction. This eliminates the need to call \textquotesingle{}delete\textquotesingle{} on raw pointers and can prevent memory leaks. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Smart\+Ptr.\+h\item 
+Smart\+Ptr.\+inl\end{DoxyCompactItemize}

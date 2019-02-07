@@ -1,0 +1,81 @@
+\hypertarget{class_arcana_1_1_indexed_container_iterator}{}\section{Arcana\+:\+:Indexed\+Container\+Iterator$<$ Container\+Type, Element\+Type, Index\+Type $>$ Class Template Reference}
+\label{class_arcana_1_1_indexed_container_iterator}\index{Arcana\+::\+Indexed\+Container\+Iterator$<$ Container\+Type, Element\+Type, Index\+Type $>$@{Arcana\+::\+Indexed\+Container\+Iterator$<$ Container\+Type, Element\+Type, Index\+Type $>$}}
+
+
+Iterator for custom Arcana\+Engine containers.  
+
+
+
+
+{\ttfamily \#include $<$Array.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a032c1a8170b6ed3cb626c460a56ef579}\label{class_arcana_1_1_indexed_container_iterator_a032c1a8170b6ed3cb626c460a56ef579}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a032c1a8170b6ed3cb626c460a56ef579}{Indexed\+Container\+Iterator}} (Container\+Type \&container, Index\+Type start\+Index=0)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} constructor. This constructor takes a reference to the container and the starting index as arguments. Rarely used as containers provide create\+Iterator() methods. Can be used with user-\/created containers. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_ae38b4d8cace7e619dd4f0c58bda29931}\label{class_arcana_1_1_indexed_container_iterator_ae38b4d8cace7e619dd4f0c58bda29931}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \& \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_ae38b4d8cace7e619dd4f0c58bda29931}{operator++}} ()
+\begin{DoxyCompactList}\small\item\em Prefix increment operator. Increments the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_afcae22817d6746ddb9a1d3686627346d}\label{class_arcana_1_1_indexed_container_iterator_afcae22817d6746ddb9a1d3686627346d}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_afcae22817d6746ddb9a1d3686627346d}{operator++}} (int)
+\begin{DoxyCompactList}\small\item\em Postfix increment operator. Increments the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a5c8c3f653393934e47da75e894ccf0e7}\label{class_arcana_1_1_indexed_container_iterator_a5c8c3f653393934e47da75e894ccf0e7}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \& \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a5c8c3f653393934e47da75e894ccf0e7}{operator-\/-\/}} ()
+\begin{DoxyCompactList}\small\item\em Prefix decrement operator. Decrements the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a2ad604565d2e6e855b0bba4c9f657cdf}\label{class_arcana_1_1_indexed_container_iterator_a2ad604565d2e6e855b0bba4c9f657cdf}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a2ad604565d2e6e855b0bba4c9f657cdf}{operator-\/-\/}} (int)
+\begin{DoxyCompactList}\small\item\em Postfix decrement operator. Decrements the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a67ac83c9256b5c09ab56242ef89216ab}\label{class_arcana_1_1_indexed_container_iterator_a67ac83c9256b5c09ab56242ef89216ab}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \& \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a67ac83c9256b5c09ab56242ef89216ab}{operator+=}} (int32 offset)
+\begin{DoxyCompactList}\small\item\em Addition assignment operator. Adds an offset to the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a88855965dd71c21fa2b554d1f15f2485}\label{class_arcana_1_1_indexed_container_iterator_a88855965dd71c21fa2b554d1f15f2485}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a88855965dd71c21fa2b554d1f15f2485}{operator+}} (int32 offset) const
+\begin{DoxyCompactList}\small\item\em Addition operator. Adds an offset to the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_aee19f0a97e3595af3fd06e33de5dd1a6}\label{class_arcana_1_1_indexed_container_iterator_aee19f0a97e3595af3fd06e33de5dd1a6}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \& \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_aee19f0a97e3595af3fd06e33de5dd1a6}{operator-\/=}} (int32 offset)
+\begin{DoxyCompactList}\small\item\em Subtraction assignment operator. Subtracts an offset to the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a4245cbd35b75c07a98da57b7fc534268}\label{class_arcana_1_1_indexed_container_iterator_a4245cbd35b75c07a98da57b7fc534268}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a4245cbd35b75c07a98da57b7fc534268}{operator-\/}} (int32 offset) const
+\begin{DoxyCompactList}\small\item\em Subtraction operator. Subtracts an offset to the index of the iterator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_aeef395899950a68702ef3c198e93faa3}\label{class_arcana_1_1_indexed_container_iterator_aeef395899950a68702ef3c198e93faa3}} 
+Element\+Type \& \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_aeef395899950a68702ef3c198e93faa3}{operator$\ast$}} () const
+\begin{DoxyCompactList}\small\item\em Dereference operator. Returns a reference to the container element at the current index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_ac389ea0b34f03ca8ada424b31cfc8729}\label{class_arcana_1_1_indexed_container_iterator_ac389ea0b34f03ca8ada424b31cfc8729}} 
+Element\+Type $\ast$ \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_ac389ea0b34f03ca8ada424b31cfc8729}{operator-\/$>$}} () const
+\begin{DoxyCompactList}\small\item\em Overload of pointer member selection operator. Returns a pointer to the container element at the current index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a1d82d3b238967897232940197d20f9e0}\label{class_arcana_1_1_indexed_container_iterator_a1d82d3b238967897232940197d20f9e0}} 
+\mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a1d82d3b238967897232940197d20f9e0}{operator bool}} () const
+\begin{DoxyCompactList}\small\item\em Boolean conversion operator. Returns true if the current index is valid. Uses \mbox{\hyperlink{class_arcana_1_1_array_a0b1c26013b63c374bc9e980e364d6e14}{Array.\+is\+Valid\+Index()}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a2ae1b46ef9ed0bd49688b9537f131db5}\label{class_arcana_1_1_indexed_container_iterator_a2ae1b46ef9ed0bd49688b9537f131db5}} 
+bool \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a2ae1b46ef9ed0bd49688b9537f131db5}{operator!}} () const
+\begin{DoxyCompactList}\small\item\em Logical negation operator. Returns false if the current index is valid. Uses \mbox{\hyperlink{class_arcana_1_1_array_a0b1c26013b63c374bc9e980e364d6e14}{Array.\+is\+Valid\+Index()}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a3b5249b938cb2de4e2006507e798bc3f}\label{class_arcana_1_1_indexed_container_iterator_a3b5249b938cb2de4e2006507e798bc3f}} 
+Index\+Type \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a3b5249b938cb2de4e2006507e798bc3f}{get\+Index}} () const
+\begin{DoxyCompactList}\small\item\em Returns the current index. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_ac7e898263ea6deccf714b8f7ed72e9e9}\label{class_arcana_1_1_indexed_container_iterator_ac7e898263ea6deccf714b8f7ed72e9e9}} 
+void \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_ac7e898263ea6deccf714b8f7ed72e9e9}{reset}} ()
+\begin{DoxyCompactList}\small\item\em Resets the index to zero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a194105b67fc3a701928282938eea8f91}\label{class_arcana_1_1_indexed_container_iterator_a194105b67fc3a701928282938eea8f91}} 
+bool \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a194105b67fc3a701928282938eea8f91}{operator==}} (const \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \&lhs, const \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Relational equivalence operator. Returns true if both the container and index of the two iterators are equal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_indexed_container_iterator_a3f8f1d6ae101307b62e1f5709cc10eb4}\label{class_arcana_1_1_indexed_container_iterator_a3f8f1d6ae101307b62e1f5709cc10eb4}} 
+bool \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator_a3f8f1d6ae101307b62e1f5709cc10eb4}{operator!=}} (const \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \&lhs, const \mbox{\hyperlink{class_arcana_1_1_indexed_container_iterator}{Indexed\+Container\+Iterator}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Relational \char`\"{}is not equal to\char`\"{} operator. Returns false if the container or index of the two iterators are equal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Container\+Type, typename Element\+Type, typename Index\+Type$>$\newline
+class Arcana\+::\+Indexed\+Container\+Iterator$<$ Container\+Type, Element\+Type, Index\+Type $>$}
+
+Iterator for custom Arcana\+Engine containers. 
+
+\mbox{\hyperlink{class_arcana_1_1_array}{Array}} iterators are created easily with Array.\+create\+Iterator() or Array.\+create\+Const\+Iterator(). This class provides operators for incrementing or decrementing the array index. Using the dereference operator returns a reference to the array element at the current index. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Array.\+h\end{DoxyCompactItemize}

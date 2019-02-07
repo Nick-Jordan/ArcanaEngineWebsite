@@ -1,0 +1,82 @@
+\hypertarget{class_arcana_1_1_time}{}\section{Arcana\+:\+:Time Class Reference}
+\label{class_arcana_1_1_time}\index{Arcana\+::\+Time@{Arcana\+::\+Time}}
+
+
+Class for wrapping a time duration.  
+
+
+
+
+{\ttfamily \#include $<$Arcana\+Time.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_arcana_1_1_time_a5a14897b858a9ab2ee905697981318c9}{Time}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_arcana_1_1_time_a12d30cc17ba7aabd9910fa33c4bf3271}{Time}} (int64 microseconds)
+\begin{DoxyCompactList}\small\item\em Int64 constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_aa073ffdc5313b86ac0190bbf71872845}\label{class_arcana_1_1_time_aa073ffdc5313b86ac0190bbf71872845}} 
+\mbox{\hyperlink{class_arcana_1_1_time_aa073ffdc5313b86ac0190bbf71872845}{$\sim$\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Default destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_a62cfa57729d88885fada52012d8d39e4}\label{class_arcana_1_1_time_a62cfa57729d88885fada52012d8d39e4}} 
+int64 \mbox{\hyperlink{class_arcana_1_1_time_a62cfa57729d88885fada52012d8d39e4}{to\+Nanoseconds}} () const
+\begin{DoxyCompactList}\small\item\em Returns the time in nanoseconds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_ae5494b64cfb03356395c7177b1db6ec9}\label{class_arcana_1_1_time_ae5494b64cfb03356395c7177b1db6ec9}} 
+int64 \mbox{\hyperlink{class_arcana_1_1_time_ae5494b64cfb03356395c7177b1db6ec9}{to\+Microseconds}} () const
+\begin{DoxyCompactList}\small\item\em Returns the time in microseconds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_a5ec7c36eab957b61bf897c57a6d1a50b}\label{class_arcana_1_1_time_a5ec7c36eab957b61bf897c57a6d1a50b}} 
+int32 \mbox{\hyperlink{class_arcana_1_1_time_a5ec7c36eab957b61bf897c57a6d1a50b}{to\+Milliseconds}} () const
+\begin{DoxyCompactList}\small\item\em Returns the time in milliseconds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_a304131c7ca500e1468beb141b1f888cd}\label{class_arcana_1_1_time_a304131c7ca500e1468beb141b1f888cd}} 
+double \mbox{\hyperlink{class_arcana_1_1_time_a304131c7ca500e1468beb141b1f888cd}{to\+Seconds}} () const
+\begin{DoxyCompactList}\small\item\em Returns the time in seconds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_a99c3ecaa9a6d786455118f2b963fac81}\label{class_arcana_1_1_time_a99c3ecaa9a6d786455118f2b963fac81}} 
+bool \mbox{\hyperlink{class_arcana_1_1_time_a99c3ecaa9a6d786455118f2b963fac81}{is\+Zero}} () const
+\begin{DoxyCompactList}\small\item\em Returns true if the time is zero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_a82db96262751ea46d56f0fc6388efbcf}\label{class_arcana_1_1_time_a82db96262751ea46d56f0fc6388efbcf}} 
+static \mbox{\hyperlink{class_arcana_1_1_time}{Time}} \mbox{\hyperlink{class_arcana_1_1_time_a82db96262751ea46d56f0fc6388efbcf}{from\+Nanoseconds}} (int64 nanoseconds)
+\begin{DoxyCompactList}\small\item\em Creates a \mbox{\hyperlink{class_arcana_1_1_time}{Time}} object from nanoseconds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_a95ac577d056c4909dbf4d9cb43c64383}\label{class_arcana_1_1_time_a95ac577d056c4909dbf4d9cb43c64383}} 
+static \mbox{\hyperlink{class_arcana_1_1_time}{Time}} \mbox{\hyperlink{class_arcana_1_1_time_a95ac577d056c4909dbf4d9cb43c64383}{from\+Milliseconds}} (int32 milliseconds)
+\begin{DoxyCompactList}\small\item\em Creates a \mbox{\hyperlink{class_arcana_1_1_time}{Time}} object from milliseconds. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_time_ab2e8c472e70a57905da61551d6a5d0e3}\label{class_arcana_1_1_time_ab2e8c472e70a57905da61551d6a5d0e3}} 
+static \mbox{\hyperlink{class_arcana_1_1_time}{Time}} \mbox{\hyperlink{class_arcana_1_1_time_ab2e8c472e70a57905da61551d6a5d0e3}{from\+Seconds}} (double seconds)
+\begin{DoxyCompactList}\small\item\em Creates a \mbox{\hyperlink{class_arcana_1_1_time}{Time}} object from seconds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for wrapping a time duration. 
+
+Stores the time in microseconds. Provides methods for converting between time units. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_time_a5a14897b858a9ab2ee905697981318c9}\label{class_arcana_1_1_time_a5a14897b858a9ab2ee905697981318c9}} 
+\index{Arcana\+::\+Time@{Arcana\+::\+Time}!Time@{Time}}
+\index{Time@{Time}!Arcana\+::\+Time@{Arcana\+::\+Time}}
+\subsubsection{\texorpdfstring{Time()}{Time()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Arcana\+::\+Time\+::\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+Initializes the time to zero. \mbox{\Hypertarget{class_arcana_1_1_time_a12d30cc17ba7aabd9910fa33c4bf3271}\label{class_arcana_1_1_time_a12d30cc17ba7aabd9910fa33c4bf3271}} 
+\index{Arcana\+::\+Time@{Arcana\+::\+Time}!Time@{Time}}
+\index{Time@{Time}!Arcana\+::\+Time@{Arcana\+::\+Time}}
+\subsubsection{\texorpdfstring{Time()}{Time()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Arcana\+::\+Time\+::\+Time (\begin{DoxyParamCaption}\item[{int64}]{microseconds }\end{DoxyParamCaption})}
+
+
+
+Int64 constructor. 
+
+Initializes the time in microseconds. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Arcana\+Time.\+h\item 
+Time.\+cpp\end{DoxyCompactItemize}

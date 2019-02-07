@@ -1,0 +1,36 @@
+\hypertarget{class_arcana_1_1_event_listener}{}\section{Arcana\+:\+:Event\+Listener Class Reference}
+\label{class_arcana_1_1_event_listener}\index{Arcana\+::\+Event\+Listener@{Arcana\+::\+Event\+Listener}}
+
+
+An interface for processing events.  
+
+
+
+
+{\ttfamily \#include $<$Event\+Listener.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_listener_a10c321f4ac5dc480e531318bc7f69cf1}\label{class_arcana_1_1_event_listener_a10c321f4ac5dc480e531318bc7f69cf1}} 
+virtual \mbox{\hyperlink{class_arcana_1_1_event_listener_a10c321f4ac5dc480e531318bc7f69cf1}{$\sim$\+Event\+Listener}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_event_listener}{Event\+Listener}} virtual destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_listener_a48fe1036f39b1bef9fd307c8fed29ad3}\label{class_arcana_1_1_event_listener_a48fe1036f39b1bef9fd307c8fed29ad3}} 
+virtual bool \mbox{\hyperlink{class_arcana_1_1_event_listener_a48fe1036f39b1bef9fd307c8fed29ad3}{process\+Event}} (\mbox{\hyperlink{class_arcana_1_1_event}{Event}} \&event, \mbox{\hyperlink{class_arcana_1_1_event_handler}{Event\+Handler}} \&handler)=0
+\begin{DoxyCompactList}\small\item\em Pure virtual process event function. This function must be overriden in all derived classes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_listener_acbbf1255b97403f3f368bbd2929cd55b}\label{class_arcana_1_1_event_listener_acbbf1255b97403f3f368bbd2929cd55b}} 
+void \mbox{\hyperlink{class_arcana_1_1_event_listener_acbbf1255b97403f3f368bbd2929cd55b}{listen\+For\+Event}} (uint64 event\+Id)
+\begin{DoxyCompactList}\small\item\em Adds an event id to the list of listened events. The event listener will listen for events with the specified id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_event_listener_a63e5e68d753941f21711f7b91d123239}\label{class_arcana_1_1_event_listener_a63e5e68d753941f21711f7b91d123239}} 
+bool \mbox{\hyperlink{class_arcana_1_1_event_listener_a63e5e68d753941f21711f7b91d123239}{is\+Listening\+For\+Event}} (uint64 event\+Id) const
+\begin{DoxyCompactList}\small\item\em Returns true if the listener is listening for events with this id. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An interface for processing events. 
+
+This is the base class for all other classes that need to process events. There are methods for setting specific event ids to listen for. This eliminates the need to check the event id in the process event method. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Event\+Listener.\+h\end{DoxyCompactItemize}

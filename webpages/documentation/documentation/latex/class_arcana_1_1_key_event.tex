@@ -1,0 +1,80 @@
+\hypertarget{class_arcana_1_1_key_event}{}\section{Arcana\+:\+:Key\+Event Class Reference}
+\label{class_arcana_1_1_key_event}\index{Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}}
+
+
+\mbox{\hyperlink{class_arcana_1_1_event}{Event}} broadcasted on key presses/releases.  
+
+
+
+
+{\ttfamily \#include $<$Key\+Event.\+h$>$}
+
+Inheritance diagram for Arcana\+:\+:Key\+Event\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_arcana_1_1_key_event}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2}{Type}} \{ \mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a2b1a00bb9a7e9413f0e672e8c9506153}{Pressed}}, 
+\mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a72cfc2d92b205338e06f3a8493960271}{Released}}, 
+\mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a3285127af15ec2c9ad551b174cd93d77}{Axis}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum defining the event type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_arcana_1_1_key_event_aaf2fd36768e5f3de12476fef5fa788d2}\label{class_arcana_1_1_key_event_aaf2fd36768e5f3de12476fef5fa788d2}} 
+\mbox{\hyperlink{class_arcana_1_1_key_event_aaf2fd36768e5f3de12476fef5fa788d2}{Key\+Event}} (\mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2}{Type}} event, int32 key\+Code, bool alt=false, bool control=false, bool shift=false, bool system=false)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_key_event}{Key\+Event}} constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_key_event_a6478c87de863bbeb44386f602f6eceef}\label{class_arcana_1_1_key_event_a6478c87de863bbeb44386f602f6eceef}} 
+\mbox{\hyperlink{class_arcana_1_1_key_event_a6478c87de863bbeb44386f602f6eceef}{Key\+Event}} (\mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2}{Type}} event, int32 key\+Code, int x, int y)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_key_event}{Key\+Event}} constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_key_event_ade909059da54ebe593df14f80f1c9d54}\label{class_arcana_1_1_key_event_ade909059da54ebe593df14f80f1c9d54}} 
+\mbox{\hyperlink{class_arcana_1_1_key_event_ade909059da54ebe593df14f80f1c9d54}{Key\+Event}} (\mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2}{Type}} event, int32 controller\+Id, int32 key\+Code)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_key_event}{Key\+Event}} constructor for controller key presses. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_key_event_a8af4057b5fba876cbee35c9f8901808e}\label{class_arcana_1_1_key_event_a8af4057b5fba876cbee35c9f8901808e}} 
+\mbox{\hyperlink{class_arcana_1_1_key_event_a8af4057b5fba876cbee35c9f8901808e}{Key\+Event}} (int32 controller\+Id, int32 key\+Code, float axis)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_key_event}{Key\+Event}} constructor for controller axis keys. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_arcana_1_1_key_event_a0c6ab0be338751bb466c1314c35976a2}\label{class_arcana_1_1_key_event_a0c6ab0be338751bb466c1314c35976a2}} 
+\mbox{\hyperlink{class_arcana_1_1_key_event_a0c6ab0be338751bb466c1314c35976a2}{Key\+Event}} (int32 key\+Code, float axis)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arcana_1_1_key_event}{Key\+Event}} constructor for axis keys. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_arcana_1_1_event}{Event}} broadcasted on key presses/releases. 
+
+Key\+Events have and event id of 1. 
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2}\label{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2}} 
+\index{Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}!Type@{Type}}
+\index{Type@{Type}!Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}}
+\subsubsection{\texorpdfstring{Type}{Type}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2}{Arcana\+::\+Key\+Event\+::\+Type}}}
+
+
+
+Enum defining the event type. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Pressed@{Pressed}!Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}}\index{Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}!Pressed@{Pressed}}}\mbox{\Hypertarget{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a2b1a00bb9a7e9413f0e672e8c9506153}\label{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a2b1a00bb9a7e9413f0e672e8c9506153}} 
+Pressed&Key was pressed. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Released@{Released}!Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}}\index{Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}!Released@{Released}}}\mbox{\Hypertarget{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a72cfc2d92b205338e06f3a8493960271}\label{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a72cfc2d92b205338e06f3a8493960271}} 
+Released&Key was released. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Axis@{Axis}!Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}}\index{Arcana\+::\+Key\+Event@{Arcana\+::\+Key\+Event}!Axis@{Axis}}}\mbox{\Hypertarget{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a3285127af15ec2c9ad551b174cd93d77}\label{class_arcana_1_1_key_event_a7e61abd92e372f41647951e8216a93e2a3285127af15ec2c9ad551b174cd93d77}} 
+Axis&Key is an axis. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Key\+Event.\+h\end{DoxyCompactItemize}
