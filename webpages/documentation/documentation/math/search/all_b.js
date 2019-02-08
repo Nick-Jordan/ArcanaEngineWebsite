@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['normalize',['normalize',['../class_arcana_1_1_plane.html#a14960dddf2b82d68ab613573a5e7b0f1',1,'Arcana::Plane::normalize()'],['../class_arcana_1_1_quaternion.html#ac2619cc4812284ec310bee5052eec376',1,'Arcana::Quaternion::normalize()'],['../class_arcana_1_1_vector2.html#ac931c697ce0f5db0f9b551261ccca896',1,'Arcana::Vector2::normalize(const Vector2&lt; T &gt; &amp;i)'],['../class_arcana_1_1_vector2.html#a9668ccaad842e329b22daac43b35f29b',1,'Arcana::Vector2::normalize()'],['../class_arcana_1_1_vector3.html#a1afabe8d11fc58af65bf02e86c8ccbd0',1,'Arcana::Vector3::normalize(const Vector3&lt; T &gt; &amp;i)'],['../class_arcana_1_1_vector3.html#a5cec1b0a1724c7e4dac32d431adb25bb',1,'Arcana::Vector3::normalize()'],['../class_arcana_1_1_vector4.html#a9a8de9b8c746a68fbc7f446f3893a8a7',1,'Arcana::Vector4::normalize(const Vector4&lt; T &gt; &amp;i)'],['../class_arcana_1_1_vector4.html#a575ff850a6a6177ad583d183157beed9',1,'Arcana::Vector4::normalize()']]]
+];

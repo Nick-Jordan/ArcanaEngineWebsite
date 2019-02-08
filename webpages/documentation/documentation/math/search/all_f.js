@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['rad_5fto_5fdeg',['RAD_TO_DEG',['../class_arcana_1_1_math.html#a0210d2f479cc3f12c015433c2e6b987b',1,'Arcana::Math']]],
+  ['radianstodegrees',['radiansToDegrees',['../class_arcana_1_1_math.html#ab55ec146d354cabe46681c0ea5be9c42',1,'Arcana::Math']]],
+  ['random',['Random',['../class_arcana_1_1_random.html',1,'Arcana']]],
+  ['range',['range',['../class_arcana_1_1_math.html#aa38737fbf0c3dbd21930c41f22d225d6',1,'Arcana::Math']]],
+  ['rect',['Rect',['../class_arcana_1_1_rect.html',1,'Arcana::Rect&lt; T &gt;'],['../class_arcana_1_1_rect.html#a416ae03f0ba9c55079cbe4f7d2bc954f',1,'Arcana::Rect::Rect()'],['../class_arcana_1_1_rect.html#a3ce2fa6b4d3838b2f6890f307e450a3c',1,'Arcana::Rect::Rect(T left, T top, T width, T height)'],['../class_arcana_1_1_rect.html#a6802e4d063b4f691e878e5a2e8131df0',1,'Arcana::Rect::Rect(const Vector2&lt; T &gt; &amp;point, const Vector2&lt; T &gt; &amp;size)'],['../class_arcana_1_1_rect.html#a428c76c3a5c6127d3ea28d479711096e',1,'Arcana::Rect::Rect(const Vector4&lt; T &gt; &amp;extents)'],['../class_arcana_1_1_rect.html#ab073ce90041ea47deb7a85cdb4791d5b',1,'Arcana::Rect::Rect(const Rect&lt; T &gt; &amp;rect)']]],
+  ['rectunion',['rectUnion',['../class_arcana_1_1_rect.html#a8a88bfc6bc53ff8a17d3fc049b4135b3',1,'Arcana::Rect::rectUnion(const Rect&lt; T &gt; &amp;rect)'],['../class_arcana_1_1_rect.html#a804bfa93bc3dfb65d313a0bb7c1b2717',1,'Arcana::Rect::rectUnion(const Rect&lt; T &gt; &amp;rect1, const Rect&lt; T &gt; &amp;rect2, Rect&lt; T &gt; &amp;result)']]],
+  ['reflect',['reflect',['../class_arcana_1_1_vector2.html#a86444ed6b50d6a82c6fee2808894f89f',1,'Arcana::Vector2::reflect()'],['../class_arcana_1_1_vector3.html#ae3f65ee15c1385f8ac5aab83bd200b05',1,'Arcana::Vector3::reflect()'],['../class_arcana_1_1_vector4.html#a458cc5fcbfe24984df2eff3564f60982',1,'Arcana::Vector4::reflect()']]],
+  ['resize',['resize',['../class_arcana_1_1_rect.html#a2ae7fddae18e6e375344152c28df3d0e',1,'Arcana::Rect::resize(T dx, T dy)'],['../class_arcana_1_1_rect.html#af6a20c4ad9f8454ae2a52d5986eb7ee2',1,'Arcana::Rect::resize(const Vector2&lt; T &gt; &amp;ds)']]],
+  ['rotate',['rotate',['../class_arcana_1_1_quaternion.html#a93e807269407367417c19d121347294b',1,'Arcana::Quaternion::rotate(const Vector3&lt; T &gt; &amp;rhs) const'],['../class_arcana_1_1_quaternion.html#a8a30aac7b956eca891147672d477b871',1,'Arcana::Quaternion::rotate(const Vector4&lt; T &gt; &amp;rhs) const']]]
+];
