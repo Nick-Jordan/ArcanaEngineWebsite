@@ -219,6 +219,8 @@ img.aligncenter {
 	margin-bottom: 30px;
 	background: rgba(0,0,0,.5); 
 	border-bottom: 1px solid #2E092D;
+	font-family: Orbitron;
+	font-weight: 400;
 }
 
 .post .title {
@@ -236,12 +238,12 @@ img.aligncenter {
 .post .meta {
 	padding-bottom: 5px;
 	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-style: italic;
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 18px;
 }
 
 .post .meta a {
+	color: #4286f4;
 }
 
 .post .entry {
