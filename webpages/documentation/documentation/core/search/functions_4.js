@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['empty',['empty',['../class_arcana_1_1_array.html#a01bdecc9bec607e3fabc8bde5198fadb',1,'Arcana::Array']]],
+  ['endswith',['endsWith',['../class_arcana_1_1_string_utils.html#acdc9b736d7b4cd48c05f54b5bc1ea3db',1,'Arcana::StringUtils']]],
+  ['equalsignorecase',['equalsIgnoreCase',['../class_arcana_1_1_string_utils.html#ab303388e7a9758ffa4c363a9b996a893',1,'Arcana::StringUtils']]],
   ['event',['Event',['../class_arcana_1_1_event.html#a6cf29ea6c699c8841a3bfa8bf64f5623',1,'Arcana::Event::Event()'],['../class_arcana_1_1_event.html#acb2a15004697399377c3a7c89fe53814',1,'Arcana::Event::Event(uint64 id)'],['../class_arcana_1_1_event.html#a41b7ce459a149b541efce98358162899',1,'Arcana::Event::Event(const Event &amp;event)']]],
   ['eventhandler',['EventHandler',['../class_arcana_1_1_event_handler.html#abad62db95c13588434b896f7ca556049',1,'Arcana::EventHandler']]],
   ['execute',['execute',['../class_arcana_1_1_base_callback.html#ab9cba864f0037c3125ff1b5ea7a33a08',1,'Arcana::BaseCallback::execute()'],['../class_arcana_1_1_callback_instance.html#aa5bd9b4ee2129a0c22a98f7fa1cfc724',1,'Arcana::CallbackInstance::execute()'],['../class_arcana_1_1_member_function_callback_instance.html#aa3da0ee51ae4a6465844c7af67da7d83',1,'Arcana::MemberFunctionCallbackInstance::execute()'],['../class_arcana_1_1_static_function_callback_instance.html#a9666f5e80b24e6e38e5d3766a6a577ac',1,'Arcana::StaticFunctionCallbackInstance::execute()']]],

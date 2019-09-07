@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['empty',['empty',['../class_arcana_1_1_array.html#a01bdecc9bec607e3fabc8bde5198fadb',1,'Arcana::Array']]],
+  ['emptytype',['EmptyType',['../struct_arcana_1_1_empty_type.html',1,'Arcana']]],
   ['enableif',['EnableIf',['../class_arcana_1_1_enable_if.html',1,'Arcana']]],
   ['enableif_3c_20false_2c_20result_20_3e',['EnableIf&lt; false, Result &gt;',['../class_arcana_1_1_enable_if_3_01false_00_01_result_01_4.html',1,'Arcana']]],
   ['enableif_3c_20true_2c_20result_20_3e',['EnableIf&lt; true, Result &gt;',['../class_arcana_1_1_enable_if_3_01true_00_01_result_01_4.html',1,'Arcana']]],
+  ['endswith',['endsWith',['../class_arcana_1_1_string_utils.html#acdc9b736d7b4cd48c05f54b5bc1ea3db',1,'Arcana::StringUtils']]],
   ['entered',['Entered',['../class_arcana_1_1_mouse_event.html#aef6393d6d26e822bd527617c64acadeaa63a98f046ad0408b1b774f57e4eb659b',1,'Arcana::MouseEvent']]],
-  ['event',['Event',['../class_arcana_1_1_event.html',1,'Arcana::Event'],['../struct_arcana_1_1_timeline_1_1_event_entry.html#ac7ab2ec2e47ffc38027df2e5dde49a49',1,'Arcana::Timeline::EventEntry::event()'],['../class_arcana_1_1_event.html#a6cf29ea6c699c8841a3bfa8bf64f5623',1,'Arcana::Event::Event()'],['../class_arcana_1_1_event.html#acb2a15004697399377c3a7c89fe53814',1,'Arcana::Event::Event(uint64 id)'],['../class_arcana_1_1_event.html#a41b7ce459a149b541efce98358162899',1,'Arcana::Event::Event(const Event &amp;event)']]],
+  ['equalsignorecase',['equalsIgnoreCase',['../class_arcana_1_1_string_utils.html#ab303388e7a9758ffa4c363a9b996a893',1,'Arcana::StringUtils']]],
+  ['event',['Event',['../class_arcana_1_1_event.html',1,'Arcana::Event'],['../struct_arcana_1_1_timeline_1_1_event_entry.html#aea952a4b7b0efeabbc6821fb43155da6',1,'Arcana::Timeline::EventEntry::event()'],['../class_arcana_1_1_event.html#a6cf29ea6c699c8841a3bfa8bf64f5623',1,'Arcana::Event::Event()'],['../class_arcana_1_1_event.html#acb2a15004697399377c3a7c89fe53814',1,'Arcana::Event::Event(uint64 id)'],['../class_arcana_1_1_event.html#a41b7ce459a149b541efce98358162899',1,'Arcana::Event::Event(const Event &amp;event)']]],
   ['event_5ferror',['EVENT_ERROR',['../class_arcana_1_1_event_handler.html#a1763837e7c9732fff7df0d4e48b3dbd4a27766aae597f40890345c45fc59dd7f0',1,'Arcana::EventHandler']]],
   ['event_5fsuccess',['EVENT_SUCCESS',['../class_arcana_1_1_event_handler.html#a1763837e7c9732fff7df0d4e48b3dbd4a8ea45dcfe2dfc827ecf65d103e18787c',1,'Arcana::EventHandler']]],
   ['evententry',['EventEntry',['../struct_arcana_1_1_timeline_1_1_event_entry.html',1,'Arcana::Timeline']]],

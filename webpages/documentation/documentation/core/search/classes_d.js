@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['time',['Time',['../class_arcana_1_1_time.html',1,'Arcana']]],
-  ['timeline',['Timeline',['../class_arcana_1_1_timeline.html',1,'Arcana']]],
-  ['timer',['Timer',['../class_arcana_1_1_timer.html',1,'Arcana']]],
-  ['timercontext',['TimerContext',['../class_arcana_1_1_timer_context.html',1,'Arcana']]],
-  ['type',['Type',['../class_arcana_1_1_type.html',1,'Arcana']]],
-  ['types',['Types',['../class_arcana_1_1_types.html',1,'Arcana']]],
-  ['typetraits',['TypeTraits',['../struct_arcana_1_1_type_traits.html',1,'Arcana']]],
-  ['typetraitsbase',['TypeTraitsBase',['../struct_arcana_1_1_type_traits_base.html',1,'Arcana']]]
+  ['removereference',['RemoveReference',['../struct_arcana_1_1_remove_reference.html',1,'Arcana']]],
+  ['removereference_3c_20t_20_26_26_20_3e',['RemoveReference&lt; T &amp;&amp; &gt;',['../struct_arcana_1_1_remove_reference_3_01_t_01_6_6_01_4.html',1,'Arcana']]],
+  ['removereference_3c_20t_20_26_3e',['RemoveReference&lt; T &amp;&gt;',['../struct_arcana_1_1_remove_reference_3_01_t_01_6_4.html',1,'Arcana']]]
 ];

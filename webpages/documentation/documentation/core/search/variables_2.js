@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['time',['time',['../struct_arcana_1_1_timeline_1_1_event_entry.html#af46b4681e90bd97293fc5f68eb514136',1,'Arcana::Timeline::EventEntry']]]
+  ['black',['Black',['../class_arcana_1_1_linear_color.html#ad88e559353463c85d33d2f2ef79a98a5',1,'Arcana::LinearColor']]],
+  ['blue',['Blue',['../class_arcana_1_1_linear_color.html#aa46dc3b4f01ffdaa93a65233edbc7062',1,'Arcana::LinearColor']]]
 ];
